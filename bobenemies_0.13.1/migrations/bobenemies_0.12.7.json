@@ -1,0 +1,23 @@
+{
+  "entity":
+  [
+    ["bob_spitter-spawner", "bob-spitter-spawner"],
+
+    ["bob-bigger-biter", "bob-huge-acid-biter"],
+    ["bob-biggest-biter", "bob-giant-poison-biter"],
+    ["bob-fire-biter", "bob-giant-fire-biter"],
+
+    ["bob-bigger-biter-corpse", "bob-huge-acid-biter-corpse"],
+    ["bob-biggest-biter-corpse", "bob-giant-poison-biter-corpse"],
+    ["bob-fire-biter-corpse", "bob-giant-fire-biter-corpse"],
+
+    ["bob-bigger-spitter", "bob-huge-explosive-spitter"],
+    ["bob-biggest-spitter", "bob-giant-fire-spitter"],
+    ["bob-poison-spitter", "bob-giant-poison-spitter"],
+
+    ["bob-bigger-spitter-corpse", "bob-huge-explosive-spitter-corpse"],
+    ["bob-biggest-spitter-corpse", "bob-giant-fire-spitter-corpse"],
+    ["bob-poison-spitter-corpse", "bob-giant-poison-spitter-corpse"]
+  ]
+}
+

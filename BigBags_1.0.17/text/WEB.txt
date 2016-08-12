@@ -1,0 +1,41 @@
+[b][size=150]Infos[/size][/b]
+[list]
+[*]Type: Mod
+[*]Name: BigBags
+[*]Description: Big bags everywhere ! (more space in inventory, toolbelt, logistic and trash slots, robots cargo size and speed, bigger stacks & pickstick to increase your picking distance...)
+[*]Tested-With-Factorio-Version: 0.13.0
+[*]Locale: english, french
+[*]Multiplayer compatible: tested on a headless server...
+[*]Tags: Bags, Inventory, Slots, Reach distance
+[*]License: You are free to use and distribute this mod and also to modify it for personal use, but not to release a modified version without permission (unless visibly not maintained anymore).
+[*]Portal download : https://mods.factorio.com/mods/binbinhfr/BigBags[/list]
+[attachment=5]bigbags-screencopy.jpg[/attachment]
+[spoiler=Description][b][size=150]Description[/size][/b]
+For those who can lift heavy luggages, this mod increases the size of all your bags (main inventory, toolbelt, logistics slots, trash slots).
+
+Extra inventory sizes are available via a dedicated technology.
+Extra toolbelts and slots are accessible via more technology upgrades (extra-tiers).
+There are also extra-tiers for robot storage and robot speed.
+There is a technology to increase reach distance and other pickup distances, with several tiers.
+
+Note that you still have to research for Logistic Robotics, initial Character Logistic Slots and initial Trash Slots to enable further tiers.
+
+Independantly of any research, it can also increases the default stack size for every item, and default magazine size for every ammo.
+And it also can set default request amount for logistic slots to 1 to avoid ordering a bunch of robots every time your enter a new item in the logistic slots.
+Nothing is mandatory or fixed, so you can customize all these last "unresearched" features by editing or commenting the self-explanatory config.lua file.
+Comment the features you don't want...
+[/spoiler]
+[b][size=150]Download[/size][/b]
+For Factorio 0.13.X :
+[color=#00BF80]Please now use the portal for downloads (see link above or use ingame mod install/update), as I won't update both downloads links here anymore.[/color]
+
+For Factorio 0.12.X :
+[attachment=0]BigBags_1.0.8.zip[/attachment]
+[attachment=1]BigBags_1.0.7.zip[/attachment]
+[attachment=2]BigBags_1.0.6.zip[/attachment]
+[attachment=3]BigBags_1.0.5.zip[/attachment]
+[attachment=4]BigBags_1.0.4.zip[/attachment]
+
+You can find some of these features in other separate mods, but I gather them into one simple tiny configurable mod.
+
+I am open to suggestions, so feel free to speak.

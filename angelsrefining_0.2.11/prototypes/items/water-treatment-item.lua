@@ -1,0 +1,60 @@
+data:extend(
+{
+{
+    type = "fluid",
+    name = "water-saline",
+    icon = "__angelsrefining__/graphics/icons/water-saline.png",
+	default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r = 0.9, g = 0.9, b = 1},
+    flow_color = {r = 0.9, g = 0.9, b = 1},
+    max_temperature = 100,
+	pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+},
+{
+    type = "fluid",
+    name = "water-purified",
+    icon = "__angelsrefining__/graphics/icons/water-purified.png",
+	default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r = 0.7, g = 0.7, b = 1},
+    flow_color = {r = 0.7, g = 0.7, b = 1},
+    max_temperature = 100,
+	pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+},
+{
+    type = "fluid",
+    name = "water-floatation-waste",
+    icon = "__angelsrefining__/graphics/icons/water-floatation-waste.png",
+	default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r = 0.9, g = 0.9, b = 0.4},
+    flow_color = {r = 0.9, g = 0.9, b = 0.4},
+    max_temperature = 100,
+	pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+},
+{
+    type = "fluid",
+    name = "water-mineralized",
+    icon = "__angelsrefining__/graphics/icons/water-mineralized.png",
+	default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r = 0.7, g = 0.7, b = 0.6},
+    flow_color = {r = 0.7, g = 0.7, b = 0.6},
+    max_temperature = 100,
+	pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+},
+--VOID
+{
+    type = "item",
+    name = "water-void",
+    icon = "__angelsrefining__/graphics/icons/clarifier.png",
+    flags = {"goes-to-main-inventory"},
+    stack_size = 200
+},
+}
+)

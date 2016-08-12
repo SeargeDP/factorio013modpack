@@ -1,0 +1,17 @@
+{
+  "item":
+  [
+    ["basic-beacon-2", "beacon-2"],
+    ["basic-beacon-3", "beacon-3"]
+  ],
+  "entity":
+  [
+    ["basic-beacon-2", "beacon-2"],
+    ["basic-beacon-3", "beacon-3"]
+  ],
+  "recipe":
+  [
+    ["basic-beacon-2", "beacon-2"],
+    ["basic-beacon-3", "beacon-3"]
+  ]
+}

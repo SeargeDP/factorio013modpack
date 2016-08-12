@@ -1,0 +1,26 @@
+---0.1.6
+-Ore Processing: fixed collision box for the higher tiers of the processing plant
+
+---0.1.5
+-Ore Processing: added new gfx for the ore-processing-plant
+-Ore Processing: ore-processing-plant size changed to 5x5!
+-Ore Processing: ore to processed recipes changed to 4 to 1, processed to plate recipes changed to 1 to 5, processed to ingot recipes changed to 2 to 12.
+-Ore Processing: condensed the scattered technologies down to the 4 ore-processing techs.
+-Bio Processing: added recipes for early wood production (bobmods) and later stages
+-Bio Processing: lowered ingredients for artifacts to be cut gems and not polished
+-Bio Processing: removed oxygen from the algae farming recipe
+-Bio Processing: changes to the amount of ingredients and results of the wood processing line
+
+
+---0.1.4
+-Ore Processing: fixed an error in technology, when using processing with bobmods
+
+---0.1.3
+-Ore Processing: changed recipes to be in line with angelsrefining
+-Ore Processing: fixed a typo in the iron-processing recipe
+-Bio Processing: changed icons for the small alien artifact recipes
+
+---0.1.2
+-Ore Processing: changed the ore-processing gfx to a placeholder of the right size
+-Bio Processing: changed the paste recipe ingredient from chlor-methane to sodium-hydroxide 
+-Bio Processing: removed chlor-methane recipe

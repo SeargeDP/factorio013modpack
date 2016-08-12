@@ -1,0 +1,11 @@
+{
+  "item":
+  [
+    ["impact-bullet-projectile", "electric-bullet-projectile"]
+  ],
+  "recipe":
+  [
+    ["impact-bullet-projectile", "electric-bullet-projectile"]
+  ]
+}
+
