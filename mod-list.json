@@ -109,6 +109,10 @@
             "enabled": "true"
         },
         {
+            "name": "DistancePlus",
+            "enabled": "true"
+        },
+        {
             "name": "EvoGUI",
             "enabled": "true"
         },
@@ -153,6 +157,10 @@
             "enabled": "true"
         },
         {
+            "name": "Signposts",
+            "enabled": "true"
+        },
+        {
             "name": "SmartSplitters",
             "enabled": "true"
         },
@@ -182,6 +190,10 @@
         },
         {
             "name": "Warehousing",
+            "enabled": "true"
+        },
+        {
+            "name": "ZGroupChange",
             "enabled": "true"
         }
     ]
