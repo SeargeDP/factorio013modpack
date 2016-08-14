@@ -12,11 +12,11 @@ zgc.generate_main_groups()
 
 
 require("mods.vanila")
-require("mods.5dim")
+--require("mods.5dim")
 require("mods.bobs")
 require("mods.angels")
-require("mods.yuoki")
-require("mods.yuoki_railway")
+--require("mods.yuoki")
+--require("mods.yuoki_railway")
 require("mods.uranium")
 
 require("mods.other")
