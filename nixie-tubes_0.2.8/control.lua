@@ -1,8 +1,6 @@
-require "config"
-
 -- luacheck: globals refresh_rate global game defines script
 
-local ticksPerRefresh = math.ceil(60 / refresh_rate)
+local alphasPerTick = 10
 
 local function removeSpriteObjs(nixie)
   for _,obj in pairs(global.spriteobjs[nixie.unit_number]) do
@@ -158,10 +156,15 @@ end
 -- from binbinhfr/SmartDisplay, modified to check both wires and add them
 local function get_signal_value(entity)
 	local behavior = entity.get_control_behavior()
-	if behavior == nil then	return(nil)	end
+	if behavior == nil then	return nil end
 
 	local condition = behavior.circuit_condition
-	if condition == nil then return(nil) end
+	if condition == nil then return nil end
+
+  -- shortcut, return stored value if unchanged
+  if condition.fulfilled and condition.condition.comparator=="=" then
+    return condition.condition.constant,false
+  end
 
 	local signal = condition.condition.first_signal
 
@@ -182,15 +185,11 @@ local function get_signal_value(entity)
 
 	local val = redval + greenval
 
-	return(val)
-end
-
-local function searchbox(nixie,direction)
-  local offset = direction=="right" and 1 or -1
-  return {
-    {nixie.position.x+offset-0.1,nixie.position.y-0.1},
-    {nixie.position.x+offset+0.1,nixie.position.y+0.1}
-    }
+  condition.condition.comparator="="
+  condition.condition.constant=val
+  condition.condition.second_signal=nil
+  behavior.circuit_condition = condition
+	return val,true
 end
 
 local validEntityName = {
@@ -236,7 +235,9 @@ local function onPlaceEntity(event)
       global.alphas[entity.unit_number] = entity
     else
       --enslave guy to left, if there is one
-      local neighbors=surf.find_entities_filtered{area=searchbox(entity,"left"),name=entity.name}
+      local neighbors=surf.find_entities_filtered{
+        position={x=entity.position.x-1,y=entity.position.y},
+        name=entity.name}
       for _,n in pairs(neighbors) do
         if n.valid then
           global.controllers[n.unit_number] = nil
@@ -246,7 +247,9 @@ local function onPlaceEntity(event)
 
 
       --slave self to right, if any
-      neighbors=surf.find_entities_filtered{area=searchbox(entity,"right"),name=entity.name}
+      neighbors=surf.find_entities_filtered{
+        position={x=entity.position.x+1,y=entity.position.y},
+        name=entity.name}
       local foundright=false
       for _,n in pairs(neighbors) do
         if n.valid then
@@ -362,20 +365,17 @@ local function onTickController(entity)
     return
   end
 
-  -- local open=false
-  for _,v in pairs(game.players) do
-    if v.opened==entity then return end
-  end
-  
   local _,color = nil,nil
   if entity.get_or_create_control_behavior().use_colors then
      _,color=getAlphaSignals(entity,defines.wire_type.red,_,color)
      _,color=getAlphaSignals(entity,defines.wire_type.green,_,color)
   end
-  
-  local v=get_signal_value(entity)
+
+  local v,changed=get_signal_value(entity)
   if v then
-    displayValue(entity,v,color)
+    if changed or color then
+      displayValue(entity,v,color)
+    end
   else
     displayBlank(entity)
   end
@@ -389,33 +389,30 @@ local function onTickAlpha(entity)
     return
   end
 
-  --local open=false
-  for _,v in pairs(game.players) do
-    if v.opened==entity then return end
-  end
-
   local charsig,color = nil,nil
 
   charsig,color=getAlphaSignals(entity,defines.wire_type.red,  charsig,color)
   charsig,color=getAlphaSignals(entity,defines.wire_type.green,charsig,color)
   charsig = charsig or "off"
-  
+
   if entity.get_or_create_control_behavior().use_colors then color=nil end
-  
+
   setStates(entity,{charsig},color)
 end
 
 
 local function onTick(event)
-  if event.tick%ticksPerRefresh == 0 then
+
+  if event.tick%5 == 0 then
     for _,nixie in pairs(global.controllers) do
       onTickController(nixie)
     end
-  -- end
-  -- if event.tick%ticksPerRefresh == 0 then
-    for _,nixie in pairs(global.alphas) do
-      onTickAlpha(nixie)
-    end
+  end
+
+  for _=1,alphasPerTick do
+    local nixie
+    global.next_alpha,nixie = next(global.alphas,global.next_alpha)
+    if nixie then onTickAlpha(nixie) end
   end
 end
 

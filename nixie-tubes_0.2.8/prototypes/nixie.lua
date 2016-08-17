@@ -92,7 +92,7 @@ data:extend(
   {
     type = "item",
     name = "nixie-tube-alpha",
-    icon = "__nixie-tubes__/graphics/nixie-base-icon.png",
+    icon = "__nixie-tubes__/graphics/nixie-alpha-base-icon.png",
     flags = {"goes-to-quickbar"},
     subgroup = "circuit-network",
     order = "c-a",
@@ -102,7 +102,7 @@ data:extend(
   {
     type = "lamp",
     name = "nixie-tube-alpha",
-    icon = "__nixie-tubes__/graphics/nixie-base-icon.png",
+    icon = "__nixie-tubes__/graphics/nixie-alpha-base-icon.png",
     flags = {"placeable-neutral","player-creation", "not-on-map"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "nixie-tube-alpha"},
     max_health = 55,
@@ -153,7 +153,7 @@ data:extend(
   {
     type = "car",
     name = "nixie-tube-sprite",
-    icon = "__nixie-tubes__/graphics/nixie-base-icon.png",
+    icon = "__nixie-tubes__/graphics/nixie-alpha-base-icon.png",
     flags = {"placeable-neutral", "placeable-off-grid", "player-creation"},
     minable = {mining_time = 1, result = "nixie-tube"},
     max_health = 200,

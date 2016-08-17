@@ -7,7 +7,7 @@ function init()
 end
 
 function load()
-    global.version = "1.1.2"
+    global.version = "1.1.3"
     global.filters = global.filters or {}
     global.current_page = global.current_page or {}
     global.filters.meta_data = {force_update = false }
@@ -38,7 +38,7 @@ end)
 
 script.on_event(defines.events.on_player_driving_changed_state, function(event) 
 	local player = game.players[event.player_index]
-	if (player.vehicle ~= nil and player.vehicle.name == "shuttleTrain") then
+	if (player.vehicle ~= nil and isShuttle(player.vehicle)) then
 		if (player.gui.left.shuttleTrain == nil) then
 			createGUI(player)
 		end
@@ -49,15 +49,32 @@ script.on_event(defines.events.on_player_driving_changed_state, function(event)
 end)
 
 script.on_event(defines.events.on_train_changed_state, function(event)
-    if event.train.locomotives["front_movers"][1].name == "shuttleTrain" and event.train.state == defines.train_state.wait_station and #event.train.schedule.records == 1 then
+    if  anyFrontMoverIsShuttle(event.train.locomotives["front_movers"]) and event.train.state == defines.train_state.wait_station and #event.train.schedule.records == 1 then
         event.train.manual_mode = true
     end
 end)
 
+function anyFrontMoverIsShuttle(front_movers)
+    for _, loco in pairs(front_movers)do
+        if isShuttle(loco) then
+            return true
+        end
+    end
+    return false
+end
+
+function isShuttle(locomotive)
+    if locomotive.name == "shuttleTrain" then
+        return true
+    else
+        return false
+    end
+end
+
 function UpdateShuttleCallButton(player)
     if player.force.technologies["shuttleTrain_tech"].researched then
     	if not player.gui.top.shuttle_call_Frame then
-            player.gui.top.add{type="frame", name="shuttle_call_Frame", direction = "vertical"}
+            player.gui.top.add{type="frame", name="shuttle_call_Frame", direction = "vertical", style="st_top_button_frame_style"}
             player.gui.top.shuttle_call_Frame.add{type="button", name="shuttle_call_button", style="st_top_image_button_style" }
         end
     else
@@ -140,9 +157,9 @@ script.on_event(defines.events.on_gui_click, function(event)
 		for key, station in pairs(global.trainStations) do
 			if (station.valid == false) then
 				removeTrainStopFromArray(station)
-			elseif (event.element.name == station.backer_name) then
-                local schedule = {current = 1, records = {[1] = {time_to_wait = 30, station = event.element.name}}}
-				if(player.vehicle ~= nil and player.vehicle.name == "shuttleTrain") then
+			elseif (event.element.caption == station.backer_name) then
+                local schedule = {current = 1, records = {[1] = {time_to_wait = 30, station = event.element.caption}}}
+				if(player.vehicle ~= nil and isShuttle(player.vehicle)) then
 					player.vehicle.train.schedule= schedule
 					player.vehicle.train.manual_mode = false
 				elseif global.shuttleTrains ~= nil or global.shuttleTrains ~= {} then
@@ -182,7 +199,7 @@ function entityBuilt (event)
 		global.filters.meta_data.force_update = true
 		on_tick(event) -- force an update of the GUI (in case someone is in the GUI)
 
-    elseif entity.name == "shuttleTrain" then
+    elseif isShuttle(entity) then
         table.insert(global.shuttleTrains, entity)
 	end
 end
@@ -193,7 +210,7 @@ function entityDestroyed (event)
 	local entity = event.entity
 	if (entity.type == "train-stop" and global.trainStations ~= nil) then
 		removeTrainStopFromArray(entity)
-    elseif entity.name == "shuttleTrain" and global.shuttleTrains ~= nil then
+    elseif isShuttle(entity) and global.shuttleTrains ~= nil then
         for key, value in pairs(global.shuttleTrains) do
             if entity == value then
                 table.remove(global.shuttleTrains, key)
@@ -278,7 +295,7 @@ function updateStationsGUI(player)
 		local startIndex = (global.current_page[player.index] -1) * 10 + 1
 		while stationsAdded < 10 and global.filtered_stations[player.index][startIndex + stationsAdded] ~= nil do
 			local name = global.filtered_stations[player.index][startIndex + stationsAdded].backer_name
-			player.gui.left.shuttleTrain.flow.add{type = "button", name = name, caption = name, style = "st-station-button"}
+			player.gui.left.shuttleTrain.flow.add{type = "button", name = stationsAdded+1, caption = name, style = "st-station-button"}
 			stationsAdded = stationsAdded + 1
 		end
 	end
