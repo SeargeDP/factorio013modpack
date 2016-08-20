@@ -25,6 +25,10 @@
             "enabled": "true"
         },
         {
+            "name": "BetterFluidColors",
+            "enabled": "true"
+        },
+        {
             "name": "BigBags",
             "enabled": "true"
         },
@@ -121,10 +125,6 @@
             "enabled": "true"
         },
         {
-            "name": "KS_Power",
-            "enabled": "true"
-        },
-        {
             "name": "manual-inventory-sort",
             "enabled": "true"
         },
@@ -134,6 +134,18 @@
         },
         {
             "name": "More_Floors",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Buildings",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Enemies",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Expansion",
             "enabled": "true"
         },
         {
@@ -149,7 +161,15 @@
             "enabled": "true"
         },
         {
+            "name": "radarplus for rso",
+            "enabled": "true"
+        },
+        {
             "name": "rso-mod",
+            "enabled": "true"
+        },
+        {
+            "name": "SeargePackFixes",
             "enabled": "true"
         },
         {
@@ -190,6 +210,10 @@
         },
         {
             "name": "Warehousing",
+            "enabled": "true"
+        },
+        {
+            "name": "ZCS-Trash-Landfill",
             "enabled": "true"
         },
         {

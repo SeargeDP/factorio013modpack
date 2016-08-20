@@ -1,0 +1,11 @@
+{
+	"name": "SeargePackFixes",
+	"version": "1.0.0",
+	"title": "[Z] Group Change",
+	"factorio_version": "0.13.15",
+	"author": "Searge",
+	"contact": "Discussion page on mods.factorio.com",
+	"homepage": "https://github.com/SeargeDP/factorio013modpack",
+	"description": "Some fixes and missing item translations for Searge's Mod Pack",
+	"dependencies": [ "base >= 0.13.0" ]
+}
