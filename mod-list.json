@@ -161,10 +161,6 @@
             "enabled": "true"
         },
         {
-            "name": "radarplus for rso",
-            "enabled": "true"
-        },
-        {
             "name": "rso-mod",
             "enabled": "true"
         },
