@@ -1,0 +1,11 @@
+{
+  "name": "boblogistics",
+  "version": "0.14.0",
+  "factorio_version": "0.14",
+  "title": "Bob's Logistics mod",
+  "author": "Bobingabout",
+  "contact": "robertagius@hotmail.com",
+  "homepage": "https://forums.factorio.com/viewforum.php?f=51",
+  "description": "Adds logistic related things.",
+  "dependencies": ["base >= 0.14.0", "boblibrary >= 0.14.0", "? bobconfig >= 0.14.0", "? bobplates >= 0.14.0"]
+}

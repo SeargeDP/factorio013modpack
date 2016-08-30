@@ -1,0 +1,11 @@
+{
+  "name": "bobenemies",
+  "version": "0.14.0",
+  "factorio_version": "0.14",
+  "title": "Bob's Enemies",
+  "author": "Bobingabout",
+  "contact": "robertagius@hotmail.com",
+  "homepage": "https://forums.factorio.com/viewforum.php?f=51",
+  "description": "Adds a few harder enemies.",
+  "dependencies": ["base >= 0.14.0", "? bobconfig >= 0.14.0"]
+}

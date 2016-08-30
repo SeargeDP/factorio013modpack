@@ -1,0 +1,11 @@
+
+{
+  "name": "tree_collision",
+  "version": "0.4.0",
+  "factorio_version": "0.14.0",
+  "title": "Tree Collision",
+  "author": "skomick",
+  "contact": "www.factorioforums.com",
+  "homepage": "",
+  "description": "Makes tree collision box very small"
+}
