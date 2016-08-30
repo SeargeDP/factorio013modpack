@@ -61,7 +61,7 @@ script.on_event(defines.events.on_tick, function(event)
 			local collector_module_count = 0
 
 			-- Scan found armor counts of the collector module
-			if armor.valid_for_read and armor.has_grid then
+			if armor.valid_for_read and armor.grid then
 				for _, mod in pairs(armor.grid.equipment) do
 					if mod.name == "collector-grounditems-armor-module" then
 						collector_module_count = collector_module_count + 1
