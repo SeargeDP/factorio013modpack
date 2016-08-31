@@ -6,7 +6,7 @@ use_graphics_tunnings 	= true		-- Enable graphics tunings like better or fixed s
 --------------------------------------------------------------------------------------------
 --# Balance changes such hiding items, change ingredients of recipes, technology changes #--
 
-z_balance_Ignore_All 	= false		-- If true - ignore any of balance settings below
+z_balance_Ignore_All 	= true		-- If true - ignore any of balance settings below
 
 
 -----------------------------------------------------
