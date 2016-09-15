@@ -1,0 +1,23 @@
+{
+  "item":
+  [
+    ["tank-2", "bob-tank-2"],
+    ["tank-3", "bob-tank-3"]
+  ],
+  "entity":
+  [
+    ["tank-2", "bob-tank-2"],
+    ["tank-3", "bob-tank-3"]
+  ],
+  "recipe":
+  [
+    ["tank-2", "bob-tank-2"],
+    ["tank-3", "bob-tank-3"]
+  ],
+  "technology":
+  [
+    [ "tanks-2", "bob-tanks-2" ],
+    [ "tanks-3", "bob-tanks-3" ]
+  ]
+}
+

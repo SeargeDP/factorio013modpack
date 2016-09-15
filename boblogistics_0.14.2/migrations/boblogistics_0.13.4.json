@@ -1,0 +1,39 @@
+{
+  "item":
+  [
+    ["purple-inserter", "express-inserter"],
+    ["purple-long-inserter", "express-inserter"],
+    ["purple-near-inserter", "express-inserter"],
+    ["purple-far-inserter", "express-inserter"],
+    ["purple-short-far-inserter", "express-inserter"],
+    ["purple-short-long-inserter", "express-inserter"],
+    ["purple-long-near-inserter", "express-inserter"],
+    ["purple-long-short-inserter", "express-inserter"]
+  ],
+  "entity":
+  [
+    ["purple-inserter", "express-inserter"],
+    ["purple-long-inserter", "express-inserter"],
+    ["purple-near-inserter", "express-inserter"],
+    ["purple-far-inserter", "express-inserter"],
+    ["purple-short-far-inserter", "express-inserter"],
+    ["purple-short-long-inserter", "express-inserter"],
+    ["purple-long-near-inserter", "express-inserter"],
+    ["purple-long-short-inserter", "express-inserter"]
+  ],
+  "recipe":
+  [
+    ["purple-inserter", "express-inserter"],
+    ["purple-long-inserter", "express-inserter"],
+    ["purple-near-inserter", "express-inserter"],
+    ["purple-far-inserter", "express-inserter"],
+    ["purple-short-far-inserter", "express-inserter"],
+    ["purple-short-long-inserter", "express-inserter"],
+    ["purple-long-near-inserter", "express-inserter"],
+    ["purple-long-short-inserter", "express-inserter"]
+  ],
+  "technology":
+  [
+    ["purple-inserters", "express-inserters"]
+  ]
+}
