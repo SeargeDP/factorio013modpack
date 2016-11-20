@@ -1,0 +1,10 @@
+{
+	"name": "always-show-recipe-products",
+	"version": "0.1.2",
+	"title": "Always Show Recipe Products",
+	"author": "Mooncat",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=33825",
+	"description": "Makes recipe products always visible on tooltip, even if there is only one product in the recipe.",
+	"factorio_version": "0.14",
+	"dependencies": ["base >= 0.14", "? ZGroupChange >= 1.2.6"]
+}
