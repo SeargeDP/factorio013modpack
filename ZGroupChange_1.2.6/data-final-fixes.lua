@@ -52,6 +52,11 @@ end
 zgc.resort_main_groups(que)
 zgc.add_newRessource_finalize()
 
+_log("AFTER WORK")
+for k, v in pairs(data.raw["fluid"]) do
+	_log("FLUID: %s : %s IN %s/%s(%s)",k,v.name,v.group,v.subgroup,v.order)
+end
+
 
 if true then
 	z_debug = true

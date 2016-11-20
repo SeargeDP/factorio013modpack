@@ -390,15 +390,16 @@ function iadd(group,name,order,ico,anim)
 _log("ADD (%s) %s to %s : %s",string.upper(typeof),name,group,order)
 		return
 		
-	elseif data.raw["fluid"][name] then
+	end --else
+--[[	if data.raw["fluid"][name] then
 		data.raw["fluid"][name].subgroup = group
 		data.raw["fluid"][name].order = order
 		data.raw["fluid"][name].flags = data.raw["fluid"][name].oldflags or data.raw["fluid"][name].flags
 		if ico then data.raw["fluid"][name].icon = ico end
 _log("ADD (%s) %s to %s : %s",string.upper(typeof),name,group,order)
 		return
-	end
-	
+	end --]]
+
 	if not data.raw.item[name] then return end
 	data.raw.item[name].subgroup = group
 	data.raw.item[name].order = order
@@ -686,8 +687,10 @@ function zgc.generate_main_groups()
 	end
 end
 
+local groupnum = 100
 function zgc.add_main_group(name,order)
-	local order = order or ""
+	local order = order or tostring(groupnum)
+	groupnum = groupnum + 10
 	data:extend({{
 		type = "item-group",
 		name = "zgc-"..name,

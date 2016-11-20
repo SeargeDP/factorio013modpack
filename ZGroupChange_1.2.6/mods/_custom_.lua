@@ -61,7 +61,15 @@ Then, when you are done - just rename it back to "local" and restart again.
 	end
 
 ]]
+
 --[ [
+aadd("catalysts",			"algae-green",									"i")
+aadd("catalysts",			"algae-blue",									"j")
+aadd("catalysts",			"algae-red",									"k")
+
+aadd("refining-buildings",	"algae-farm",									"m")
+aadd("refining-buildings",	"algae-farm-2",									"n")
+
 aadd("z-alien-10",			"small-biter-hatching",							"a")
 aadd("z-alien-10",			"medium-biter-hatching",						"b")
 aadd("z-alien-10",			"big-biter-hatching",							"c")
@@ -96,14 +104,27 @@ aadd("z-alien-13",			"Alien_Hatchery",								"d")
 aadd("z-alien-13",			"AlienControlStation",							"e")
 iadd("z-alien-13",			"AlienControlStation_Area",						"e")
 
-aadd("z-armor-1",			"shotgun-shell",								"c")
-aadd("z-armor-1",			"Biological-bullet-magazine",					"d")
-aadd("z-armor-1",			"piercing-shotgun-shell",						"e")
-aadd("z-armor-1",			"flame-thrower-ammo",							"f")
-aadd("z-armor-1",			"rocket",										"g")
-aadd("z-armor-1",			"explosive-rocket",								"h")
+aadd("z-armor-1",			"Biological-bullet-magazine",					"c")
+aadd("z-armor-1",			"du-magazine",									"d")
+aadd("z-armor-1",			"shotgun-shell",								"e")
+aadd("z-armor-1",			"piercing-shotgun-shell",						"f")
+aadd("z-armor-1",			"flame-thrower-ammo",							"g")
+aadd("z-armor-1",			"rocket",										"h")
+aadd("z-armor-1",			"explosive-rocket",								"i")
+
+aadd("z-armor-3",			"land-mine-poison",								"d")
+aadd("z-armor-3",			"slowdown-capsule",								"e")
+aadd("z-armor-3",			"poison-capsule",								"f")
+aadd("z-armor-3",			"defender-capsule",								"g")
+aadd("z-armor-3",			"distractor-capsule",							"h")
+aadd("z-armor-3",			"destroyer-capsule",							"i")
+aadd("z-armor-3",			"discharge-defense-remote",						"j")
 
 aadd("z-armor-5",			"collector-grounditems-armor-module",			"h")
+
+aadd("z-armor-7",			"rtg-equipment",								"i")
+
+aadd("z-armor-11",			"combat-robot-dispenser-equipment",				"g")
 
 aadd("z-automatization-0",	"ne-combat-inserter",							"c")
 iadd("z-automatization-0",	"combat-inserter",								"c")
@@ -111,6 +132,15 @@ aadd("z-automatization-0",	"long-handed-inserter",							"d")
 aadd("z-automatization-0",	"express-inserter",								"e")
 
 aadd("z-chemistry-0",		"CMH-NaOH",										"k")
+
+aadd("z-chemistry-7",		"gas-carbon-dioxide-from-wood",					"e")
+aadd("z-chemistry-7",		"gas-methanol-from-wood",						"f")
+aadd("z-chemistry-7",		"gas-ammonia-from-blue-fiber",					"g")
+
+aadd("z-decorative-0",		"small-iron-blank",								"c")
+aadd("z-decorative-0",		"large-iron-blank",								"d")
+aadd("z-decorative-0",		"small-copper-blank",							"e")
+aadd("z-decorative-0",		"large-copper-blank",							"f")
 
 aadd("z-decorative-1",		"landfill",										"a")
 aadd("z-decorative-1",		"green_grass",									"b")
@@ -141,6 +171,8 @@ aadd("z-decorative-3",		"snow",											"f")
 aadd("z-decorative-5",		"sign-post",									"a")
 aadd("z-decorative-5",		"small-lamp",									"b")
 
+aadd("z-defense-0",			"iron-wall",									"c")
+aadd("z-defense-0",			"iron-walls",									"c")
 aadd("z-defense-0",			"ne-living-wall",								"e")
 aadd("z-defense-0",			"ne-living-wall-refresh",						"f")
 iadd("z-defense-0",			"ne-living-wall-exhausted",						"f")
@@ -156,6 +188,25 @@ aadd("z-energy-0",			"OilSteamBoiler",								"d")
 aadd("z-energy-0",			"burn-crude-oil",								"e")
 aadd("z-energy-0",			"burn-heavy-oil",								"f")
 aadd("z-energy-0",			"burn-light-oil",								"g")
+
+aadd("z-energy-3",			"nuclear-reactor",								"a")
+aadd("z-energy-3",			"cooling-tower",								"b")
+aadd("z-energy-3",			"steam-turbine",								"c")
+aadd("z-energy-3",			"reactor-interface",							"d")
+aadd("z-energy-3",			"electric-energy-interface",					"e")
+aadd("z-energy-3",			"fission-reaction",								"f")
+aadd("z-energy-3",			"breeder-reaction",								"g")
+
+aadd("z-energy-6",			"accumulator",									"a")
+aadd("z-energy-6",			"slow-accumulator",								"b")
+aadd("z-energy-6",			"large-accumulator",							"c")
+aadd("z-energy-6",			"fast-accumulator",								"d")
+aadd("z-energy-6",			"slow-accumulator-2",							"e")
+aadd("z-energy-6",			"large-accumulator-2",							"f")
+aadd("z-energy-6",			"fast-accumulator-2",							"g")
+aadd("z-energy-6",			"slow-accumulator-3",							"h")
+aadd("z-energy-6",			"large-accumulator-3",							"i")
+aadd("z-energy-6",			"fast-accumulator-3",							"j")
 
 aadd("z-energy-8",			"huge-electric-pole",							"e")
 aadd("z-energy-8",			"substation",									"f")
@@ -173,6 +224,8 @@ aadd("z-gathering-6",		"bob-mining-drill-1",							"b")
 aadd("z-gathering-6",		"bob-mining-drill-2",							"c")
 aadd("z-gathering-6",		"bob-mining-drill-3",							"d")
 aadd("z-gathering-6",		"bob-mining-drill-4",							"e")
+
+aadd("z-gathering-8",		"water-well-pump",								"b")
 
 aadd("z-intermediate-3",	"solder-alloy",									"a")
 aadd("z-intermediate-3",	"solder-alloy-lead",							"b")
@@ -196,33 +249,78 @@ aadd("z-intermediate-6",	"grinding-wheel",								"m")
 aadd("z-intermediate-6",	"polishing-wheel",								"n")
 aadd("z-intermediate-6",	"polishing-wheel-synthetic",					"o")
 aadd("z-intermediate-6",	"polishing-compound",							"p")
+aadd("z-intermediate-6",	"gun-cotton",									"q")
 
 aadd("z-intermediate-13",	"Building_Materials",							"a")
-
-iadd("z-liquids-0",			"NE_alien_toxin",								"h")
-aadd("z-liquids-0",			"NE_alien-revitalization",						"i")
-iadd("z-liquids-0",			"NE_revitalization-solution",					"i")
-aadd("z-liquids-0",			"NE_basic-alien-nutrientant",					"j")
-iadd("z-liquids-0",			"NE_nutrient-solution",							"j")
-aadd("z-liquids-0",			"NE_enhanced-alien-nutrientant",				"k")
-iadd("z-liquids-0",			"NE_enhanced-nutrient-solution",				"k")
 
 aadd("z-liquids-1",			"bob-oil-processing",							"a")
 aadd("z-liquids-1",			"CMH-refining",									"b")
 aadd("z-liquids-1",			"basic-oil-processing",							"c")
 aadd("z-liquids-1",			"advanced-oil-processing",						"d")
 aadd("z-liquids-1",			"ground-water",									"e")
-aadd("z-liquids-1",			"bi-Fuel_Conversion",							"e")
-aadd("z-liquids-1",			"bi-biomass-0",									"f")
-aadd("z-liquids-1",			"bi-Bio_Fuel",									"g")
 
 aadd("z-liquids-2",			"coal-liquefaction",							"b")
 aadd("z-liquids-2",			"CMH-coal-cracking",							"c")
+aadd("z-liquids-2",			"coal-cracking",								"d")
 aadd("z-liquids-2",			"diesel-fuel",									"f")
-aadd("z-liquids-2",			"lubricant",									"g")
 aadd("z-liquids-2",			"bob-liquid-air",								"h")
 aadd("z-liquids-2",			"bi-Clean_Air",									"i")
 aadd("z-liquids-2",			"bi-Clean_Air2",								"j")
+aadd("z-liquids-2",			"advanced-caustic-oil-processing",				"k")
+aadd("z-liquids-2",			"caustic-heavy-oil-processing",					"l")
+aadd("z-liquids-2",			"caustic-oil-processing",						"m")
+
+aadd("z-liquids-3",			"water-barrel",									"a")
+aadd("z-liquids-3",			"lithia-water-barrel",							"b")
+aadd("z-liquids-3",			"crude-oil-barrel",								"c")
+aadd("z-liquids-3",			"heavy-oil-barrel",								"d")
+aadd("z-liquids-3",			"light-oil-barrel",								"e")
+aadd("z-liquids-3",			"lubricant-barrel",								"f")
+aadd("z-liquids-3",			"sulfuric-acid-barrel",							"g")
+aadd("z-liquids-3",			"nitric-acid-barrel",							"h")
+aadd("z-liquids-3",			"bi-Fuel_Conversion",							"i")
+aadd("z-liquids-3",			"uranium-slurry",								"j")
+aadd("z-liquids-3",			"uranium-separation",							"k")
+aadd("z-liquids-3",			"fuel-reprocessing",							"l")
+aadd("z-liquids-3",			"mox-fuel",										"m")
+
+aadd("z-liquids-4",			"oxygen-canister",								"a")
+aadd("z-liquids-4",			"hydrogen-canister",							"b")
+aadd("z-liquids-4",			"nitrogen-canister",							"c")
+aadd("z-liquids-4",			"chlorine-canister",							"d")
+aadd("z-liquids-4",			"hydrogen-chloride-canister",					"e")
+aadd("z-liquids-4",			"petroleum-gas-canister",						"f")
+aadd("z-liquids-4",			"liquid-fuel-canister",							"g")
+aadd("z-liquids-4",			"ferric-chloride-canister",						"h")
+
+aadd("z-liquids-11",		"water",										"a")
+aadd("z-liquids-11",		"lithia-water",									"b")
+aadd("z-liquids-11",		"water-purified",								"c")
+aadd("z-liquids-11",		"water-saline",									"d")
+aadd("z-liquids-11",		"thermal-water",								"e")
+aadd("z-liquids-11",		"liquid-air",									"f")
+
+aadd("z-liquids-11",		"crude-oil",									"g")
+aadd("z-liquids-11",		"heavy-oil",									"h")
+aadd("z-liquids-11",		"light-oil",									"i")
+aadd("z-liquids-11",		"lubricant",									"j")
+aadd("z-liquids-11",		"liquid-fuel",									"k")
+aadd("z-liquids-11",		"bi-Bio_Fuel",									"l")
+aadd("z-liquids-11",		"bi-biomass",									"m")
+aadd("z-liquids-11",		"bi-biomass-0",									"n")
+
+aadd("z-liquids-11",		"crystal-seedling",								"o")
+aadd("z-liquids-11",		"crystal-matrix",								"p")
+aadd("z-liquids-11",		"crystal-slurry",								"q")
+aadd("z-liquids-11",		"mineral-sludge",								"r")
+aadd("z-liquids-11",		"slag-slurry",									"s")
+aadd("z-liquids-11",		"NE_alien_toxin",								"t")
+aadd("z-liquids-11",		"NE_alien-revitalization",						"u")
+aadd("z-liquids-11",		"NE_revitalization-solution",					"v")
+aadd("z-liquids-11",		"NE_basic-alien-nutrientant",					"w")
+aadd("z-liquids-11",		"NE_nutrient-solution",							"x")
+aadd("z-liquids-11",		"NE_enhanced-alien-nutrientant",				"y")
+aadd("z-liquids-11",		"NE_enhanced-nutrient-solution",				"z")
 
 aadd("z-module-1",			"speed-processor",								"a")
 aadd("z-module-1",			"speed-processor-2",							"b")
@@ -317,6 +415,7 @@ aadd("z-other-8",			"hull-component",								"d")
 aadd("z-other-8",			"protection-field",								"e")
 aadd("z-other-8",			"space-thruster",								"f")
 aadd("z-other-8",			"fuel-cell",									"g")
+aadd("z-other-8",			"fuel-cell-hydrogen",							"h")
 
 aadd("z-other-9",			"habitation",									"a")
 aadd("z-other-9",			"life-support",									"b")
@@ -337,7 +436,30 @@ aadd("z-plates-10",			"angelsore6-crushed-smelting",					"d")
 
 aadd("z-production-2",		"chemical-furnace",								"i")
 
+aadd("z-production-4",		"tank-assembling-machine",						"g")
+aadd("z-production-4",		"tank-ammo-assembling-machine",					"h")
+
 aadd("z-resources-0",		"crude-gold",									"l")
+
+aadd("z-resources-1",		"solid-calcium-carbonate",						"l")
+
+aadd("z-resources-2",		"blue-fiber-algae",								"a")
+aadd("z-resources-2",		"blue-cellulose-fiber",							"b")
+aadd("z-resources-2",		"red-cellulose-fiber",							"c")
+aadd("z-resources-2",		"blue-fiber-algae",								"c")
+aadd("z-resources-2",		"paste-from-gas-chlor-methane",					"g")
+aadd("z-resources-2",		"wood-pellets",									"h")
+aadd("z-resources-2",		"wood-bricks",									"i")
+
+aadd("z-resources-3",		"paste-cellulose",								"a")
+aadd("z-resources-3",		"paste-iron",									"b")
+aadd("z-resources-3",		"paste-copper",									"c")
+aadd("z-resources-3",		"paste-zinc",									"d")
+aadd("z-resources-3",		"paste-gold",									"e")
+aadd("z-resources-3",		"paste-silver",									"f")
+aadd("z-resources-3",		"paste-cobalt",									"g")
+aadd("z-resources-3",		"paste-titanium",								"h")
+aadd("z-resources-3",		"paste-tungsten",								"i")
 
 aadd("z-resources-7",		"plastic-bar",									"a")
 aadd("z-resources-7",		"bi-platic",									"b")
@@ -347,10 +469,17 @@ aadd("z-resources-7",		"bob-resin-wood",								"e")
 aadd("z-resources-7",		"rubber",										"f")
 aadd("z-resources-7",		"bob-rubber",									"g")
 
---aadd("z-trains-0",			"shuttleTrain",									"f")
+aadd("z-resources-8",		"uranium-ore",									"o")
+aadd("z-resources-8",		"enriched-fuel",								"p")
+aadd("z-resources-8",		"plutonium",									"q")
+aadd("z-resources-8",		"spent-fuel",									"r")
+aadd("z-resources-8",		"depleted-uranium",								"s")
+aadd("z-resources-8",		"plutonium-core",								"t")
+
+aadd("z-trains-0",			"diesel-locomotive",							"b")
 aadd("z-trains-0",			"bob-armoured-diesel-locomotive-2",				"i")
 
---aadd("z-trains-1",			"rail-tanker",									"e")
+aadd("z-trains-1",			"cargo-wagon",									"b")
 aadd("z-trains-1",			"bob-armoured-cargo-wagon-2",					"i")
 
 aadd("z-trains-11",			"bi-rail-wood",									"a")
@@ -364,6 +493,7 @@ aadd("z-transport-2",		"medium-express-underground-belt",				"e")
 aadd("z-transport-2",		"long-express-underground-belt",				"f")
 
 aadd("z-transport-4",		"smartsplitter",								"h")
+aadd("z-transport-4",		"Single Splitter",								"i")
 
 aadd("z-transport-8",		"valve",										"b")
 
@@ -373,11 +503,86 @@ aadd("z-transport-9",		"long-pipe-to-ground",							"d")
 aadd("z-transport-9",		"ultra-pipe-to-ground",							"e")
 aadd("z-transport-9",		"continental-pipe-to-ground",					"f")
 
+aadd("z-vehicles-0",		"car-flamer",									"b")
+aadd("z-vehicles-0",		"tank",											"c")
+aadd("z-vehicles-0",		"tank-2",										"d")
+aadd("z-vehicles-0",		"tank-3",										"e")
+aadd("z-vehicles-0",		"bob-robot-tank",								"f")
+aadd("z-vehicles-0",		"bob-tank-2",									"g")
+aadd("z-vehicles-0",		"bob-tank-3",									"h")
+
+aadd("z-vehicles-1",		"flame-tank-wlsk",								"j")
+aadd("z-vehicles-1",		"auto-tank",									"k")
+aadd("z-vehicles-1",		"modular-tank",									"l")
+aadd("z-vehicles-1",		"auto-tank-wlsk",								"m")
+aadd("z-vehicles-1",		"nade-tank",									"n")
+aadd("z-vehicles-1",		"nade-tank-wlsk",								"o")
+aadd("z-vehicles-1",		"mine-tank",									"p")
+aadd("z-vehicles-1",		"rocket-tank",									"q")
+
+aadd("z-vehicles-2",		"super-tank",									"a")
+aadd("z-vehicles-2",		"super-tank-alternate",							"b")
+aadd("z-vehicles-2",		"super-tank-wmd",								"c")
+aadd("z-vehicles-2",		"tank-artillery",								"d")
+aadd("z-vehicles-2",		"tank-auto-cannon",								"e")
+aadd("z-vehicles-2",		"tank-cannon",									"f")
+aadd("z-vehicles-2",		"tank-mine-cannon",								"g")
+aadd("z-vehicles-2",		"tank-nade-cannon",								"h")
+aadd("z-vehicles-2",		"tank-wmd-cannon",								"i")
+aadd("z-vehicles-2",		"tank-light-chasis-wlsk",						"j")
+
+aadd("z-vehicles-3",		"tank-machinegun-turret",						"a")
+aadd("z-vehicles-3",		"tank-flamer",									"b")
+aadd("z-vehicles-3",		"tank-flamer-2",								"c")
+aadd("z-vehicles-3",		"tank-rocket-cannon",							"d")
+
+aadd("z-vehicles-4",		"cannon-shell",									"a")
+aadd("z-vehicles-4",		"cannon-shell-2",								"b")
+aadd("z-vehicles-4",		"cannon-shell-convert",							"c")
+aadd("z-vehicles-4",		"explosive-cannon-shell",						"d")
+aadd("z-vehicles-4",		"scatter-cannon-shell",							"e")
+aadd("z-vehicles-4",		"poison-artillery-shell",						"f")
+aadd("z-vehicles-4",		"explosive-artillery-shell",					"g")
+aadd("z-vehicles-4",		"distractor-artillery-shell",					"h")
+
+aadd("z-vehicles-5",		"tank-ammo-casing",								"a")
+aadd("z-vehicles-5",		"tank-ammo-reinforced-casing",					"b")
+aadd("z-vehicles-5",		"tank-ammo-universal-explosive",				"c")
+aadd("z-vehicles-5",		"tank-ammo-universal-explosive-synthetic",		"d")
+aadd("z-vehicles-5",		"minepack",										"e")
+aadd("z-vehicles-5",		"minepack-poison",								"f")
+
+aadd("z-vehicles-6",		"45mm-auto",									"a")
+aadd("z-vehicles-6",		"50mm-mortar",									"b")
+aadd("z-vehicles-6",		"50mm-mortar-poison",							"c")
+aadd("z-vehicles-6",		"rocketpack",									"d")
+aadd("z-vehicles-6",		"tank-wmd-ammo",								"e")
+aadd("z-vehicles-6",		"flame-thrower-ammo-tanker",					"f")
+aadd("z-vehicles-6",		"flame-thrower-ammo-tanker-2",					"g")
+
+aadd("z-vehicles-7",		"ap-bullet-brick",								"a")
+aadd("z-vehicles-7",		"piercing-shotgun-shell-brick",					"a")
+aadd("z-vehicles-7",		"fish-kit",										"a")
+aadd("z-vehicles-7",		"tank-recall-token",							"a")
+
 aadd("z-weaponry-0",		"bob-laser-robot",								"j")
 aadd("z-weaponry-0",		"assembly-robot",								"k")
 
 aadd("z-weaponry-1",		"bob-laser-robot-capsule",						"k")
 --]]
+
+_log("BEFORE WORK")
+zgc.get_group_name("z-liquids-19",fluids)
+for k, v in pairs(data.raw["fluid"]) do
+	_log("FLUID: %s : %s IN %s/%s(%s)",k,v.name,v.group,v.subgroup,v.order)
+	v.subgroup = "zgc-liquids-19"
+end
+
+zgc.add_main_group("parts")
+
+for k,v in pairs(data.raw["item-subgroup"]) do
+	if v.group == "petrochem-refining" then v.group = "zgc-parts" end
+end
 
 --[[ List of inventory groups (mask: z-[name]-[0..n])  [
 	z-gathering-#
