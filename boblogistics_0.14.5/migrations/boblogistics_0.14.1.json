@@ -1,0 +1,29 @@
+{
+  "item":
+  [
+    ["diesel-locomotive-2", "bob-diesel-locomotive-2"],
+    ["cargo-wagon-2", "bob-cargo-wagon-2"],
+    ["diesel-locomotive-3", "bob-diesel-locomotive-3"],
+    ["cargo-wagon-3", "bob-cargo-wagon-3"],
+    ["armoured-diesel-locomotive", "bob-armoured-diesel-locomotive"],
+    ["armoured-cargo-wagon", "bob-armoured-cargo-wagon"]
+  ],
+  "recipe":
+  [
+    ["diesel-locomotive-2", "bob-diesel-locomotive-2"],
+    ["cargo-wagon-2", "bob-cargo-wagon-2"],
+    ["diesel-locomotive-3", "bob-diesel-locomotive-3"],
+    ["cargo-wagon-3", "bob-cargo-wagon-3"],
+    ["armoured-diesel-locomotive", "bob-armoured-diesel-locomotive"],
+    ["armoured-cargo-wagon", "bob-armoured-cargo-wagon"]
+  ],
+  "entity":
+  [
+    ["diesel-locomotive-2", "bob-diesel-locomotive-2"],
+    ["cargo-wagon-2", "bob-cargo-wagon-2"],
+    ["diesel-locomotive-3", "bob-diesel-locomotive-3"],
+    ["cargo-wagon-3", "bob-cargo-wagon-3"],
+    ["armoured-diesel-locomotive", "bob-armoured-diesel-locomotive"],
+    ["armoured-cargo-wagon", "bob-armoured-cargo-wagon"]
+  ]
+}

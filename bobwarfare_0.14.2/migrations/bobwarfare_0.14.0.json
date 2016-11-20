@@ -1,0 +1,54 @@
+{
+  "item":
+  [
+    ["basic-exoskeleton-equipment-2", "exoskeleton-equipment-2"],
+    ["basic-exoskeleton-equipment-3", "exoskeleton-equipment-3"],
+    ["basic-laser-defense-equipment-2", "personal-laser-defense-equipment-2"],
+    ["basic-laser-defense-equipment-3", "personal-laser-defense-equipment-3"],
+    ["basic-laser-defense-equipment-4", "personal-laser-defense-equipment-4"],
+    ["basic-laser-defense-equipment-5", "personal-laser-defense-equipment-5"],
+    ["basic-laser-defense-equipment-6", "personal-laser-defense-equipment-6"],
+    ["impact-bullet-magazine", "electric-bullet-magazine"],
+    ["impact-bullet", "electric-bullet"],
+    ["shotgun-impact-shell", "shotgun-electric-shell"],
+    ["bob-impact-rocket", "bob-electric-rocket"],
+    ["impact-rocket-warhead", "electric-rocket-warhead"],
+    ["impact-bullet-projectile", "electric-bullet-projectile"]
+  ],
+  "equipment":
+  [
+    ["basic-exoskeleton-equipment-2", "exoskeleton-equipment-2"],
+    ["basic-exoskeleton-equipment-3", "exoskeleton-equipment-3"],
+    ["basic-laser-defense-equipment-2", "personal-laser-defense-equipment-2"],
+    ["basic-laser-defense-equipment-3", "personal-laser-defense-equipment-3"],
+    ["basic-laser-defense-equipment-4", "personal-laser-defense-equipment-4"],
+    ["basic-laser-defense-equipment-5", "personal-laser-defense-equipment-5"],
+    ["basic-laser-defense-equipment-6", "personal-laser-defense-equipment-6"]
+  ],
+  "recipe":
+  [
+    ["basic-exoskeleton-equipment-2", "exoskeleton-equipment-2"],
+    ["basic-exoskeleton-equipment-3", "exoskeleton-equipment-3"],
+    ["basic-laser-defense-equipment-2", "personal-laser-defense-equipment-2"],
+    ["basic-laser-defense-equipment-3", "personal-laser-defense-equipment-3"],
+    ["basic-laser-defense-equipment-4", "personal-laser-defense-equipment-4"],
+    ["basic-laser-defense-equipment-5", "personal-laser-defense-equipment-5"],
+    ["basic-laser-defense-equipment-6", "personal-laser-defense-equipment-6"],
+    ["impact-bullet-magazine", "electric-bullet-magazine"],
+    ["impact-bullet", "electric-bullet"],
+    ["shotgun-impact-shell", "shotgun-electric-shell"],
+    ["bob-impact-rocket", "bob-electric-rocket"],
+    ["impact-rocket-warhead", "electric-rocket-warhead"],
+    ["impact-bullet-projectile", "electric-bullet-projectile"]
+  ],
+  "technology":
+  [
+    ["basic-exoskeleton-equipment-2", "exoskeleton-equipment-2"],
+    ["basic-exoskeleton-equipment-3", "exoskeleton-equipment-3"],
+    ["basic-laser-defense-equipment-2", "personal-laser-defense-equipment-2"],
+    ["basic-laser-defense-equipment-3", "personal-laser-defense-equipment-3"],
+    ["basic-laser-defense-equipment-4", "personal-laser-defense-equipment-4"],
+    ["basic-laser-defense-equipment-5", "personal-laser-defense-equipment-5"],
+    ["basic-laser-defense-equipment-6", "personal-laser-defense-equipment-6"]
+  ]
+}

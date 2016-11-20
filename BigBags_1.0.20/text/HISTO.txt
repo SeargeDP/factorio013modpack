@@ -1,0 +1,29 @@
+##VERSIONS:
+1.0.20	- clean the remaining my_inventory_size variable.
+1.0.19	- factorio 0.14 compatible
+1.0.17	- reduce last 2 tiers of inventory size to avoid window height problems.
+		- add an interface for reset.
+1.0.16	- reduce loot range, otherwise you do have time to see if something was dropped on the ground...
+1.0.15	- suppress the increase of item-pick-range that was a problem when you want to pick
+		  just a few objects on a belt.
+1.0.14	- rework all tiers generation, to compute better progression of costs.
+		- add some more tiers to character slots, trash, etc...
+1.0.13	- add a research for inventory size, with 4 tiers (new possibility in factorio 0.13)
+		  compatible with previous versions that have fixed free inventory size :
+		  when the mod is already installed, the research is offered (to avoid losing
+		  a part of your inventory...)
+		- add a research for reach distance and other distance, with 3 tiers.
+		- adjust technology costs that were not realistic.
+1.0.12	- migration for robot technology renames 
+1.0.11	- minors fixes
+1.0.10	- correction to reflect a bug correction in 0.13.1 .
+1.0.9	- 0.13 compatible. rework of initialisation routines. Custom license. Pb with logistic request amount implementation corrected.
+1.0.8	- Corrects double modification of ammo stack.
+1.0.7	- Switch to data-final-fixes.lua to support mods like bobplates.
+1.0.6	- Add a linear formula to change stack size (new=A+B*old).
+1.0.5	- Improves multiplayer compatibility.
+1.0.4	- if my_running_speed_factor	- 1, do not set running speed to default 0.15 to avoid interfering with other mods that change it sooner. Do not decrease stack size if already greater than my_stack_size. Idem for my_mag_size. Do not change stack size for special "unqiue" items which stack size is 1 (like cars, tanks, etc...).
+1.0.3	- running speed factor default to 1 to avoid disturbing users.
+1.0.2	- improves multiplayer compatibility.
+1.0.1	- to be more consistent with game logic, this update introduces technologies for extra toolbelt, logistic slots, trash slots, robot storage, robot speed (for those who upgrade from 1.0.0, it will reset your bags sizes, and you'll have to search the technologies to get these features back). It also suppresses mining options that will be available in another mod.
+1.0.0	- initial release, no technologies, everything was just free!
