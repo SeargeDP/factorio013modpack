@@ -1,0 +1,1 @@
+bobmods.lib.add_technology_recipe("rocket-silo", "rocket-engine")

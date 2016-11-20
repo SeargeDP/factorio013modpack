@@ -1,0 +1,16 @@
+##VERSIONS:
+1.0.15	- factorio 0.14 compatible
+1.0.14	- better init forces when installing on existing game.
+1.0.13	- minor fixes, new utils, code cleaning, locale corrections.
+1.0.11	- 0.13 compatible. rework of initialisation routines. Custom license.
+1.0.10	- changed water flow recipe to enable=true, hidden=true to be compatible with blueprint-string.
+1.0.9	- Adds czech locale by Xmat.
+1.0.8	- Adds russian locale by Oceanel.
+1.0.7	- Improves multiplayer compatibility.
+1.0.6	- Changes the inner water flow recipe to smoothen the water production, have a larger water output buffer and be less CPU demanding. The max water flow remains 100/s.
+1.0.5	- not released.
+1.0.4	- Adds locale for polish (thanks to LubieArbuzy) and spanish (thanks to frenchiveruti).
+1.0.3	- Adds locale for german (thanks to Apcnc) and french (my own language).
+1.0.2	- Adds multiplayer compatibility
+1.0.1	- Correction of the energy type to secondary, and emission polution
+1.0.0	- Initial release!

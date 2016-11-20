@@ -1,0 +1,1 @@
+bobmods.lib.recipe.replace_ingredient("small-lamp", "electronic-circuit", "basic-circuit-board")

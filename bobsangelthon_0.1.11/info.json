@@ -1,0 +1,23 @@
+{
+  "name": "bobsangelthon",
+  "version": "0.1.11",
+  "factorio_version": "0.14",
+  "title": "Bob's Angelthon",
+  "author": "Warringer",
+  "contact": "warringer@gmail.com",
+  "homepage": "",
+  "description": "Adjusts Angel's Mods and  to work well with Marathon and Bob's",
+  "dependencies": [
+    "base >= 0.13.0",
+    "? angelsrefining >= 0.3.6",
+    "? angelssmelting >= 0.1.1",
+    "? angelsaddons-oresilos >= 0.2.2",
+    "? angelspetrochem >= 0.1.14",
+    "? angelsprocessing >= 0.2.0",
+    "? angelsaddons-pressuretanks >= 0.1.0",
+    "? angelsaddons-warehouses >= 0.1.0",
+    "bobplates >= 0.14.0",
+	"bobelectronics >= 0.14.0",
+	"marathon >= 1.1.5"
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "angelstrigger-refining-enableproductivity",
+  "version": "0.1.1",
+  "factorio_version": "0.14",
+  "title": "Angel's Triggers - Refining - Enable Productivity Modules",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "https://forums.factorio.com/viewforum.php?f=185",
+  "description": "This mods acts as a switch by toggling it on/off and enable productivity modules in ore refining machines when toggled on",
+  "dependencies": ["base >= 0.14.0"]
+}

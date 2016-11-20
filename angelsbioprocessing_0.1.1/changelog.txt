@@ -1,0 +1,6 @@
+---0.1.1
+-moved algae farm recipes to technology
+-fixed a typo in the description
+
+---0.1.0
+-initial release

@@ -1,0 +1,10 @@
+{
+  "name": "usefulbyproducts",
+  "version": "0.1.3",
+  "title": "Useful Byproducts",
+  "author": "Earendel",
+  "dependencies": ["base >= 0.14.0", "bobplates >= 0.14.0", "? angelsrefining >= 0.3.2"],
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=33425",
+  "description": "Makes some Bob's Mods byproducts useful. Hydrogen can be made in to Fuel Cells. Sodium Hydroxide can be useful in Oil Refining, or can be used with Angel's Processing to improve Thermal Water.",
+  "factorio_version": "0.14"
+}

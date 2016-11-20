@@ -5,15 +5,15 @@
             "enabled": "true"
         },
         {
-            "name": "angelsinfiniteores",
+            "name": "what-is-it-used-for",
             "enabled": "true"
         },
         {
-            "name": "angelsprocessing",
+            "name": "angelstrigger-refining-enablefurnace",
             "enabled": "true"
         },
         {
-            "name": "angelsrefining",
+            "name": "angelstrigger-refining-enableproductivity",
             "enabled": "true"
         },
         {
@@ -33,27 +33,7 @@
             "enabled": "true"
         },
         {
-            "name": "Bio_Industries",
-            "enabled": "true"
-        },
-        {
-            "name": "bobassembly",
-            "enabled": "true"
-        },
-        {
             "name": "bobconfig",
-            "enabled": "true"
-        },
-        {
-            "name": "bobelectronics",
-            "enabled": "true"
-        },
-        {
-            "name": "bobenemies",
-            "enabled": "true"
-        },
-        {
-            "name": "bobgreenhouse",
             "enabled": "true"
         },
         {
@@ -65,59 +45,11 @@
             "enabled": "true"
         },
         {
-            "name": "boblogistics",
-            "enabled": "true"
-        },
-        {
-            "name": "bobmining",
-            "enabled": "true"
-        },
-        {
-            "name": "bobmodules",
-            "enabled": "true"
-        },
-        {
-            "name": "bobores",
-            "enabled": "true"
-        },
-        {
-            "name": "bobplates",
-            "enabled": "true"
-        },
-        {
-            "name": "bobpower",
-            "enabled": "true"
-        },
-        {
-            "name": "bobrevamp",
-            "enabled": "true"
-        },
-        {
-            "name": "bobtech",
-            "enabled": "true"
-        },
-        {
             "name": "bobtechsave",
             "enabled": "true"
         },
         {
-            "name": "bobwarfare",
-            "enabled": "true"
-        },
-        {
-            "name": "CMHMod",
-            "enabled": "true"
-        },
-        {
             "name": "DeathChest",
-            "enabled": "true"
-        },
-        {
-            "name": "DistancePlus",
-            "enabled": "true"
-        },
-        {
-            "name": "EvoGUI",
             "enabled": "true"
         },
         {
@@ -137,15 +69,7 @@
             "enabled": "true"
         },
         {
-            "name": "Natural_Evolution_Buildings",
-            "enabled": "true"
-        },
-        {
-            "name": "Natural_Evolution_Enemies",
-            "enabled": "true"
-        },
-        {
-            "name": "Natural_Evolution_Expansion",
+            "name": "moweather",
             "enabled": "true"
         },
         {
@@ -161,7 +85,7 @@
             "enabled": "true"
         },
         {
-            "name": "rso-mod",
+            "name": "Reactors",
             "enabled": "true"
         },
         {
@@ -169,11 +93,11 @@
             "enabled": "true"
         },
         {
-            "name": "ShuttleTrain",
+            "name": "Signposts",
             "enabled": "true"
         },
         {
-            "name": "Signposts",
+            "name": "Single-Splitter",
             "enabled": "true"
         },
         {
@@ -181,7 +105,7 @@
             "enabled": "true"
         },
         {
-            "name": "SpaceMod",
+            "name": "SpaceModforF014",
             "enabled": "true"
         },
         {
@@ -189,7 +113,11 @@
             "enabled": "true"
         },
         {
-            "name": "Surfaces",
+            "name": "tanks_for_bob",
+            "enabled": "true"
+        },
+        {
+            "name": "textplates",
             "enabled": "true"
         },
         {
@@ -197,15 +125,11 @@
             "enabled": "true"
         },
         {
-            "name": "UraniumPower",
-            "enabled": "true"
-        },
-        {
             "name": "VersepellesHardStorage",
             "enabled": "true"
         },
         {
-            "name": "Warehousing",
+            "name": "WaterWell",
             "enabled": "true"
         },
         {
@@ -213,7 +137,159 @@
             "enabled": "true"
         },
         {
+            "name": "bobenemies",
+            "enabled": "true"
+        },
+        {
+            "name": "bobores",
+            "enabled": "true"
+        },
+        {
+            "name": "bobvehicleequipment",
+            "enabled": "true"
+        },
+        {
+            "name": "EvoGUI",
+            "enabled": "true"
+        },
+        {
+            "name": "Signals",
+            "enabled": "true"
+        },
+        {
+            "name": "bobtech",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Buildings",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Enemies",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Expansion",
+            "enabled": "true"
+        },
+        {
+            "name": "rso-mod",
+            "enabled": "true"
+        },
+        {
+            "name": "bobplates",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsrefining",
+            "enabled": "true"
+        },
+        {
+            "name": "bobassembly",
+            "enabled": "true"
+        },
+        {
+            "name": "bobelectronics",
+            "enabled": "true"
+        },
+        {
+            "name": "bobgreenhouse",
+            "enabled": "true"
+        },
+        {
+            "name": "boblogistics",
+            "enabled": "true"
+        },
+        {
+            "name": "bobmining",
+            "enabled": "true"
+        },
+        {
+            "name": "bobpower",
+            "enabled": "true"
+        },
+        {
+            "name": "bobrevamp",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsaddons-oresilos",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsaddons-warehouses",
+            "enabled": "true"
+        },
+        {
+            "name": "Bio_Industries",
+            "enabled": "true"
+        },
+        {
+            "name": "bobmodules",
+            "enabled": "true"
+        },
+        {
+            "name": "bobwarfare",
+            "enabled": "true"
+        },
+        {
+            "name": "flowcontrolbobs",
+            "enabled": "true"
+        },
+        {
+            "name": "longer-belts-redux",
+            "enabled": "true"
+        },
+        {
+            "name": "steinios_Bobs_patch",
+            "enabled": "true"
+        },
+        {
+            "name": "Upgrade",
+            "enabled": "true"
+        },
+        {
+            "name": "usefulbyproducts",
+            "enabled": "true"
+        },
+        {
+            "name": "CMHMod",
+            "enabled": "true"
+        },
+        {
+            "name": "CMHModBobEndGame",
+            "enabled": "true"
+        },
+        {
+            "name": "marathon",
+            "enabled": "true"
+        },
+        {
+            "name": "angelspetrochem",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsaddons-pressuretanks",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsbioprocessing",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsinfiniteores",
+            "enabled": "true"
+        },
+        {
+            "name": "bobsangelthon",
+            "enabled": "true"
+        },
+        {
             "name": "ZGroupChange",
+            "enabled": "true"
+        },
+        {
+            "name": "always-show-recipe-products",
             "enabled": "true"
         }
     ]

@@ -1,0 +1,12 @@
+{
+  "name": "textplates",
+  "title": "Text Plates",
+  "version": "0.1.12",
+  "factorio_version": "0.14",
+  "dependencies": ["base >= 0.14.0"],
+  "author": "Earendel",
+  "description": "Text shaped metal plates for signs and labels. Letters, numbers and symbols. Iron, copper, large and small variants.",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=34935",
+  "source": "https://github.com/earendelentertainment/factorio-textplates",
+  "license": "GNU LGPLv3"
+}

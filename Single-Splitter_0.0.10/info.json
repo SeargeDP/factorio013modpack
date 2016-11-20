@@ -1,0 +1,11 @@
+{
+  "name": "Single-Splitter",
+  "version": "0.0.10",
+  "title": "Single-Splitter",
+  "author": "Razorin",
+  "contact": "nope",
+  "homepage": "nope",
+  "description": "Balances load on a single Belt",
+  "dependencies": ["base >= 0.12.0"],
+  "factorio_version": "0.14"
+}

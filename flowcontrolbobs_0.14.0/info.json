@@ -1,0 +1,10 @@
+{
+	"name": "flowcontrolbobs",
+	"version": "0.14.0",
+	"title": "Flow Control for Bobs pipes",
+	"author": "jgmrequel",
+	"homepage": "https://github.com/mcilhargey/flowcontrolbobs",
+	"description": "Extends Flow Control for all of the Bob's Pipes",
+	"factorio_version": "0.14",
+	"dependencies": [ "base >= 0.14", "Flow Control >= 2.1.1", "bobplates >= 0.14.0", "boblogistics >= 0.14.0" ]
+}

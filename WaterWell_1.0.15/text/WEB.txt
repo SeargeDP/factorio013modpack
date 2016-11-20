@@ -1,0 +1,35 @@
+[b][size=150]Infos[/size][/b]
+[list]
+[*]Type: Mod
+[*]Name: WaterWell
+[*]Description: Adds a water well pump, to pump fresh water from the underground (also called the groundwater table).
+[*]Tested-With-Factorio-Version: 0.13.0
+[*]Locale: english, french, german, polish, spanish, russian, czech 
+[*]Multiplayer compatible: tested on a headless server...
+[*]Tags: Water, Well, Pump
+[*]License: You are free to use and distribute this mod and also to modify it for personal use, but not to release a modified version without permission (unless visibly not maintained anymore).
+[*]Portal download : https://mods.factorio.com/mods/binbinhfr/WaterWell[/list]
+[attachment=6]waterwell1-screencopy.jpg[/attachment]
+[spoiler=Description][b][size=150]Description[/size][/b]
+Even when you are under the heavy sun of a desert land, there is always water somewhere under your feet... So use this water well pump to find it !
+
+This pump produces a maximum of 100 water per second and consumes 100kW.
+
+The recipe to build this pump just requires steel processing technology and is available at the early stages of the game.
+
+[attachment=5]waterwell2-screencopy.jpg[/attachment][/spoiler]
+
+[b][size=150]Download[/size][/b]
+For Factorio 0.13.X :
+[color=#00BF80]Please now use the portal for downloads (see link above or use ingame mod install/update), as I won't update both downloads links here anymore.[/color]
+
+For Factorio 0.12.X :
+[attachment=0]WaterWell_1.0.10.zip[/attachment]
+[attachment=1]WaterWell_1.0.9.zip[/attachment]
+[attachment=2]WaterWell_1.0.7.zip[/attachment]
+[attachment=3]WaterWell_1.0.6.zip[/attachment]
+[attachment=4]WaterWell_1.0.4.zip[/attachment]
+
+note that at early stages of the game, you can use the [url=https://forums.factorio.com/viewtopic.php?f=93&t=23329]Aquifer drill[/url], that has been written almost at the same time !  :) 
+
+I am open to suggestions, so feel free to speak.
