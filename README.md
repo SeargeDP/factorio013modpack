@@ -1,5 +1,7 @@
 Github suggested that adding a readme file would make it easier for people to understand the purpose of this repository, so I added this readme file.
 
+You can create a new world with custom settings, but I recommend to use the save file SeargeModPackWorld.zip in this pack for a well balanced experience.
+
 Mod List (for Factorio 0.14.20+):
 =================================
 Always Show Recipe Products
