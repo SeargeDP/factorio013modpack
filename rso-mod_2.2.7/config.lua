@@ -55,4 +55,4 @@ resourceCollisionFieldSkip = true		-- determines if ore field should be skipped 
 
 -- Angels Ores section
 infiniteResourceSpawnThreshold = 0.7	-- should be between 0 and 1 - 0 means all nodes are infinite, 1 or more will result with no infinite nodes
-infiniteResourceInStartArea	= false
+infiniteResourceInStartArea	= true
