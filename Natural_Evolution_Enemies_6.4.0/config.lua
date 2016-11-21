@@ -29,7 +29,7 @@ YuokiTani - Art!!  Amazing work!
 ---------------------------------------------------------------------------]]
 
 
-NE.Set_Difficulty = 2
+NE.Set_Difficulty = 1
 -- Affects difficulty factor
 -- Options: 
 --			1 = Normal

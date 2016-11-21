@@ -28,7 +28,7 @@ YuokiTani - Art!!  Amazing work!
 
 ---------------------------------------------------------------------------]]
 
-NE.Set_Difficulty = 2
+NE.Set_Difficulty = 1
 -- Affects difficulty factor
 -- Options: 
 --			1 = Normal
@@ -37,7 +37,7 @@ NE.Set_Difficulty = 2
 
 
 
-NE.LongReach = true
+NE.LongReach = false
 --- Long Reach
 --- Do you want double the vanilla reach
 

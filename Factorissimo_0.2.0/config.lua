@@ -38,4 +38,4 @@ factorissimo.config.pollution_multiplier = 1.0
 -- 3 means you can place any building inside any other!
 -- Note: Changing this config will not prevent you from *placing* factories anywhere. However if you place factories where they are not supposed to be, they will simply not work and not connect to anything, and you won't be able to enter them.
 -- Another note: Changing this config mid-game will not disconnect preexisting wrongly nested factories, but it will prevent you from entering them. To be able to enter such interior factories again, just mine them and place them back down in the overworld.
-factorissimo.config.recursion = 3
+factorissimo.config.recursion = 0

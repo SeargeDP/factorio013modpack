@@ -1,4 +1,4 @@
-z_debug = true
+z_debug = false
 
 
 --# rebalancing
@@ -59,7 +59,7 @@ end
 
 
 if true then
-	z_debug = true
+	z_debug = false
 --	_log("-----[[ AFTER ]]-----"	)
 --	_log("[NAMES] => %s",		dumpvar(data.raw, 2, 1))
 --	_log("[ALL] => %s",			dumpvar(data.raw, nil, 1))
