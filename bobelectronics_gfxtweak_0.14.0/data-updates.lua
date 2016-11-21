@@ -1,0 +1,11 @@
+if data.raw.item["wooden-board"]  then data.raw.item["wooden-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/wooden-board.png" end 
+if data.raw.item["phenolic-board"]  then data.raw.item["phenolic-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/phenolic-board.png" end 
+if data.raw.item["fibreglass-board"]  then data.raw.item["fibreglass-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/fibreglass-board.png" end 
+if data.raw.item["basic-circuit-board"]  then data.raw.item["basic-circuit-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/basic-circuit-board.png" end 
+if data.raw.item["circuit-board"]  then data.raw.item["circuit-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/circuit-board.png" end 
+if data.raw.item["superior-circuit-board"]  then data.raw.item["superior-circuit-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/superior-circuit-board.png" end 
+if data.raw.item["multi-layer-circuit-board"]  then data.raw.item["multi-layer-circuit-board"].icon = "__bobelectronics_gfxtweak__/graphics/icons/multi-layer-circuit-board.png" end
+if data.raw.item["electronic-circuit"]  then data.raw.item["electronic-circuit"].icon = "__bobelectronics_gfxtweak__/graphics/icons/basic-electronic-circuit-board.png" end 
+if data.raw.item["advanced-circuit"]  then data.raw.item["advanced-circuit"].icon = "__bobelectronics_gfxtweak__/graphics/icons/electronic-circuit-board.png" end 
+if data.raw.item["processing-unit"]  then data.raw.item["processing-unit"].icon = "__bobelectronics_gfxtweak__/graphics/icons/electronic-logic-board.png" end 
+if data.raw.item["advanced-processing-unit"]  then data.raw.item["advanced-processing-unit"].icon = "__bobelectronics_gfxtweak__/graphics/icons/electronic-processing-board.png" end 

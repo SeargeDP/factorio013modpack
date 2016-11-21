@@ -1,0 +1,11 @@
+{
+  "name": "EvolutionReduction",
+  "version": "0.14.5",
+  "title": "Evolution Reduction via Destruction",
+  "author": "TehRoach",
+  "contact": "",
+  "homepage": "",
+  "factorio_version": "0.14",
+  "dependencies": ["base >= 0.13"],
+  "description": "Have you ever wondered how distroying alien spawners ended up helping the aliens evolve?\n Or have you ever wanted a way to reduce the alien evolution factor?\n\n Or do you sometimes want to be left in peace to build your factories, but find peaceful mode a little too easy?\n\n This MOD solves these problems :)\n\n Destroying alien bases will reduce alien evolution\n This MOD is designed to introduce a new difficulty level between Peaceful and Normal"
+}

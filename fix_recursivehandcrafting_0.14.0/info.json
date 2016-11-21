@@ -1,0 +1,15 @@
+{
+  "name": "fix_recursivehandcrafting",
+  "version": "0.14.0",
+  "factorio_version": "0.14",
+  "title": "Recursive Handcrafting Fix",
+  "author": "Xuerian",
+  "contact": "xuerian@gmail.com",
+  "homepage": "",
+  "description": "Change alternative recipes like synthetic wood to assembler only to keep handcrafting working",
+  "dependencies": [
+	"base >= 0.14.0",
+	"? bobplates >= 0.14.0",
+	"? angelsbioprocessing >= 0.1.1"
+  ]
+}

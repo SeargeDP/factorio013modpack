@@ -7,5 +7,5 @@
 	"contact": "Discussion page on mods.factorio.com",
 	"homepage": "https://github.com/SeargeDP/factorio013modpack",
 	"description": "Some fixes and missing item translations for Searge's Mod Pack",
-	"dependencies": [ "base >= 0.13.0" ]
+	"dependencies": [ "base >= 0.14.0" ]
 }

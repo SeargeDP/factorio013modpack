@@ -53,6 +53,10 @@
             "enabled": "true"
         },
         {
+            "name": "EvolutionReduction",
+            "enabled": "true"
+        },
+        {
             "name": "Factorissimo",
             "enabled": "true"
         },
@@ -90,10 +94,6 @@
         },
         {
             "name": "SeargePackFixes",
-            "enabled": "true"
-        },
-        {
-            "name": "Signposts",
             "enabled": "true"
         },
         {
@@ -225,6 +225,10 @@
             "enabled": "true"
         },
         {
+            "name": "bobelectronics_gfxtweak",
+            "enabled": "true"
+        },
+        {
             "name": "bobmodules",
             "enabled": "true"
         },
@@ -282,6 +286,10 @@
         },
         {
             "name": "bobsangelthon",
+            "enabled": "true"
+        },
+        {
+            "name": "fix_recursivehandcrafting",
             "enabled": "true"
         },
         {
