@@ -39,7 +39,6 @@ Tanks For Bob
 Text Plates
 Trash Landfill
 Tree Collision
-Upgrade
 Useful Byproducts
 Versepelles Hard Storage
 Water Well
