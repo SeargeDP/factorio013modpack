@@ -249,10 +249,6 @@
             "enabled": "true"
         },
         {
-            "name": "Upgrade",
-            "enabled": "true"
-        },
-        {
             "name": "usefulbyproducts",
             "enabled": "true"
         },
