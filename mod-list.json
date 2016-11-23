@@ -45,10 +45,6 @@
             "enabled": "true"
         },
         {
-            "name": "bobtechsave",
-            "enabled": "true"
-        },
-        {
             "name": "DeathChest",
             "enabled": "true"
         },
@@ -58,6 +54,10 @@
         },
         {
             "name": "Factorissimo",
+            "enabled": "true"
+        },
+        {
+            "name": "Flow Control",
             "enabled": "true"
         },
         {
@@ -86,10 +86,6 @@
         },
         {
             "name": "Personal_Spawns",
-            "enabled": "true"
-        },
-        {
-            "name": "Reactors",
             "enabled": "true"
         },
         {
@@ -153,7 +149,7 @@
             "enabled": "true"
         },
         {
-            "name": "Signals",
+            "name": "Reactors",
             "enabled": "true"
         },
         {
@@ -174,6 +170,10 @@
         },
         {
             "name": "rso-mod",
+            "enabled": "true"
+        },
+        {
+            "name": "Signals",
             "enabled": "true"
         },
         {
