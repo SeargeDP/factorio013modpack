@@ -49,6 +49,10 @@
             "enabled": "true"
         },
         {
+            "name": "EvoGUI",
+            "enabled": "true"
+        },
+        {
             "name": "EvolutionReduction",
             "enabled": "true"
         },
@@ -70,10 +74,6 @@
         },
         {
             "name": "More_Floors",
-            "enabled": "true"
-        },
-        {
-            "name": "moweather",
             "enabled": "true"
         },
         {
@@ -145,7 +145,7 @@
             "enabled": "true"
         },
         {
-            "name": "EvoGUI",
+            "name": "Natural_Evolution_Expansion",
             "enabled": "true"
         },
         {
@@ -162,10 +162,6 @@
         },
         {
             "name": "Natural_Evolution_Enemies",
-            "enabled": "true"
-        },
-        {
-            "name": "Natural_Evolution_Expansion",
             "enabled": "true"
         },
         {
