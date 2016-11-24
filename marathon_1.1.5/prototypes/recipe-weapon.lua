@@ -17,7 +17,7 @@ data:extend({
 
     energy_required = 3,
     ingredients = {
-      {"iron-gear-wheel", 25},
+      {"iron-gear-wheel", 15},
       {"copper-plate", 25},
       {"iron-plate", 25},
     },

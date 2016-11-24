@@ -29,8 +29,8 @@ data:extend({
 
     energy_required = 10,
     ingredients = {
-      {"iron-gear-wheel", 50},
-      {"copper-plate", 50},
+      {"iron-gear-wheel", 25},
+      {"copper-plate", 25},
       {"iron-plate", 50},
     },
     result = "gun-turret",

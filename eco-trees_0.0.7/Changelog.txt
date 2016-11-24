@@ -1,0 +1,43 @@
+Version History
+
+Possible Future Features
+*Grow your own tree
+	-config can disable if player doesn't want.  
+
+0.0.7
+*Tree Loot added
+	-Trees drop wood when killed
+	-Needs activated in Config.
+*Config changed
+	-Each option now has a line showing defualt setting.
+0.0.6
+*Update for 1.4.
+	-Changed line in "info" from "factorio_version": "0.13",
+		-to "factorio_version": "0.14",
+0.0.5
+*First Mod Portal Release
+*Simplified Code Drasticly.
+	-gutted mod completely and rebuildt
+*Added Config so player can chose how he(she) plays.
+*Now Completely compatible with all mods that adds/alters Trees
+*Took a fellow coders advice on how to simplify the mod.
+	-Thank you L0771 (Sorry for taking so long)
+0.0.4
+*Added Compaitbility Treeseeds Trees
+	-The plant-stick did not have an emissions value so I gave it one.  
+*Added Compaitbility TreeSamplings Trees	
+0.0.3
+*Fix for 0.13
+*Changed values as base factorio also changed tree emissions. Still 10x
+	-perhaps the devs saw how they went doing much.
+*Stumps and dead trees help with pollution now in the base game, so now this mod also give 10x power to them.
+	-they arnt as good as normal trees.
+*I gave coral an emission value.
+	-If dead trees have a value then coral sould too.  In my opinion.
+0.0.2
+*Added those missed vanilla trees.
+*Added Compaitbility Treefarm Mod Trees
+*Added Compaitbility Treefarm Mod Cafine Addon plants
+*Added Compaitbility Treefarm Mod Alien Plant Addon plants
+*Added Compaitbility DyTech Mod Trees
+0.0.1

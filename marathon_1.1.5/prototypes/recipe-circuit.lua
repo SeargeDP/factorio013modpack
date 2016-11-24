@@ -5,7 +5,7 @@ data:extend(
     name = "copper-cable",
 
     energy_required = 2,
-    ingredients = {{"copper-plate", 10}},
+    ingredients = {{"copper-plate", 5}},
     result = "copper-cable",
     result_count = 2,
   },

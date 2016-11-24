@@ -2,8 +2,8 @@ Recipe.select('air-pump').apply('energy_required', 5).ingredients =
 {
 	{type="item", name="iron-plate", amount=10},
 	{type="item", name="iron-gear-wheel", amount=10},
-	{type="item", name="electronic-circuit", amount=10},
-	{type="item", name="pipe", amount=10},
+	{type="item", name="electronic-circuit", amount=5},
+	{type="item", name="pipe", amount=5},
 }
 
 Recipe.select('air-pump-2').ingredients =
@@ -19,8 +19,8 @@ Recipe.select('chemical-plant').ingredients =
 {
 	{type="item", name="steel-plate", amount=20},
 	{type="item", name="iron-gear-wheel", amount=30},
-	{type="item", name="electronic-circuit", amount=10},
-	{type="item", name="pipe", amount=15},
+	{type="item", name="electronic-circuit", amount=5},
+	{type="item", name="pipe", amount=10},
 }
 
 if data.raw.item['steel-bearing'] and data.raw.item['steel-gear-wheel'] and data.raw.item['glass'] then

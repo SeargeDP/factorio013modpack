@@ -49,6 +49,10 @@
             "enabled": "true"
         },
         {
+            "name": "eco-trees",
+            "enabled": "true"
+        },
+        {
             "name": "EvoGUI",
             "enabled": "true"
         },
@@ -62,6 +66,10 @@
         },
         {
             "name": "Flow Control",
+            "enabled": "true"
+        },
+        {
+            "name": "KS_Power",
             "enabled": "true"
         },
         {

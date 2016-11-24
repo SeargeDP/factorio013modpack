@@ -96,7 +96,7 @@ marathon.update_recipe("stone-pipe-to-ground",
 {
 	ingredients = {
 		{type="item", name="stone-pipe", amount=10},
-		{type="item", name="stone-brick", amount=10}
+		{type="item", name="stone-brick", amount=5}
 	}
 })
 

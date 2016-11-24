@@ -73,7 +73,7 @@ data:extend({
 
     ingredients = {
       {"pipe", 10},
-      {"iron-plate", 10},
+      {"iron-plate", 5},
     },
     result = "pipe-to-ground",
     result_count = 2,

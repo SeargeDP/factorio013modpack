@@ -17,7 +17,7 @@ data:extend({
 
     energy_required = 10,
     ingredients = {
-      {"electronic-circuit", 25},
+      {"electronic-circuit", 20},
       {"iron-gear-wheel", 25},
       {"iron-plate", 100},
     },
@@ -65,7 +65,7 @@ data:extend({
     name = "boiler",
 
     ingredients = {
-      {"stone-furnace", 2},
+      {"stone-furnace", 5},
       {"pipe", 15},
     },
     result = "boiler",
