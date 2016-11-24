@@ -76,7 +76,7 @@ data:extend({
 
     energy_required = 60,
     ingredients = {
-      {"iron-gear-wheel", 100},
+      {"iron-gear-wheel", 50},
       {"pipe", 50},
       {"iron-plate", 100},
     },
