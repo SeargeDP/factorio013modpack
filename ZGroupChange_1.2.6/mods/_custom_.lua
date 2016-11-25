@@ -104,6 +104,9 @@ aadd("z-alien-13",			"Alien_Hatchery",								"d")
 aadd("z-alien-13",			"AlienControlStation",							"e")
 iadd("z-alien-13",			"AlienControlStation_Area",						"e")
 
+aadd("z-alien-14",			"alien-ore",									"a")
+aadd("z-alien-14",			"alien-shard",									"b")
+
 aadd("z-armor-1",			"Biological-bullet-magazine",					"c")
 aadd("z-armor-1",			"du-magazine",									"d")
 aadd("z-armor-1",			"shotgun-shell",								"e")

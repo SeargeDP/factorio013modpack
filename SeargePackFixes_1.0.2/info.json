@@ -7,5 +7,5 @@
 	"contact": "Discussion page on mods.factorio.com",
 	"homepage": "https://github.com/SeargeDP/factorio013modpack",
 	"description": "Some fixes and missing item translations for Searge's Mod Pack",
-	"dependencies": [ "base >= 0.14.0" ]
+	"dependencies": [ "base >= 0.14.0", "angelsbioprocessing >= 0.1.1", "? bobenemies >= 0.14.0", "? Natural_Evolution_Enemies >= 6.4.0" ]
 }

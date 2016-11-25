@@ -58,7 +58,7 @@
         },
         {
             "name": "EvolutionReduction",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "Factorissimo",
@@ -94,7 +94,7 @@
         },
         {
             "name": "peacemod",
-            "enabled": "false"
+            "enabled": "true"
         },
         {
             "name": "Personal_Spawns",
@@ -118,7 +118,7 @@
         },
         {
             "name": "tanks_for_bob",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "textplates",
@@ -142,7 +142,7 @@
         },
         {
             "name": "bobenemies",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "bobores",
@@ -154,7 +154,7 @@
         },
         {
             "name": "Natural_Evolution_Expansion",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "Reactors",
@@ -166,11 +166,11 @@
         },
         {
             "name": "Natural_Evolution_Buildings",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "Natural_Evolution_Enemies",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "rso-mod",
@@ -238,7 +238,7 @@
         },
         {
             "name": "bobwarfare",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "flowcontrolbobs",

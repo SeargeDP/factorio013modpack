@@ -266,7 +266,7 @@
         },
         {
             "name": "marathon",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "angelspetrochem",
@@ -286,7 +286,7 @@
         },
         {
             "name": "bobsangelthon",
-            "enabled": "true"
+            "enabled": "false"
         },
         {
             "name": "fix_recursivehandcrafting",
