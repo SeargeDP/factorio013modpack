@@ -9,7 +9,7 @@ if data.raw.item["brass-alloy"] then
 	{
 		ingredients = {
 			{type="item", name="brass-pipe", amount=15},
-			{type="item", name="brass-alloy", amount=15},
+			{type="item", name="brass-alloy", amount=10},
 		}
 	})
 end
@@ -25,7 +25,7 @@ if data.raw.item["bronze-alloy"] then
 	{
 		ingredients = {
 			{type="item", name="bronze-pipe", amount=12},
-			{type="item", name="bronze-alloy", amount=12},
+			{type="item", name="bronze-alloy", amount=10},
 		}
 	})
 end
@@ -53,7 +53,7 @@ marathon.update_recipe("plastic-pipe-to-ground",
 {
 	ingredients = {
 		{type="item", name="plastic-pipe", amount=12},
-		{type="item", name="plastic-bar", amount=12},
+		{type="item", name="plastic-bar", amount=10},
 	}
 })
 
@@ -68,7 +68,7 @@ if data.raw.item["silicon-nitride"] then
 	{
 		ingredients = {
 			{type="item", name="ceramic-pipe", amount=15},
-			{type="item", name="silicon-nitride", amount=15},
+			{type="item", name="silicon-nitride", amount=10},
 		}
 	})
 end
@@ -83,7 +83,7 @@ marathon.update_recipe("steel-pipe-to-ground",
 {
 	ingredients = {
 		{type="item", name="steel-pipe", amount=12},
-		{type="item", name="steel-plate", amount=12}
+		{type="item", name="steel-plate", amount=10}
 	}
 })
 marathon.update_recipe("stone-pipe",
@@ -96,7 +96,7 @@ marathon.update_recipe("stone-pipe-to-ground",
 {
 	ingredients = {
 		{type="item", name="stone-pipe", amount=10},
-		{type="item", name="stone-brick", amount=5}
+		{type="item", name="stone-brick", amount=10}
 	}
 })
 
@@ -112,7 +112,7 @@ if data.raw.item["titanium-plate"] then
 	{
 		ingredients = {
 			{type="item", name="titanium-pipe", amount=15},
-			{type="item", name="titanium-plate", amount=15},
+			{type="item", name="titanium-plate", amount=10},
 		}
 	})
 end
@@ -129,7 +129,7 @@ if data.raw.item["tungsten-plate"] then
 	{
 		ingredients = {
 			{type="item", name="tungsten-pipe", amount=18},
-			{type="item", name="tungsten-plate", amount=18},
+			{type="item", name="tungsten-plate", amount=10},
 		}
 	})
 end

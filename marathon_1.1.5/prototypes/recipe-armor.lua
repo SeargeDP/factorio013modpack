@@ -5,7 +5,7 @@ data:extend({
     enabled = false,
 
     energy_required = 3,
-    ingredients = {{"iron-plate", 100}},
+    ingredients = {{"iron-plate", 50}},
     result = "light-armor",
   },
   {
@@ -15,7 +15,7 @@ data:extend({
 
     energy_required = 8,
     ingredients = {
-      {"copper-plate", 500},
+      {"copper-plate", 200},
       {"steel-plate", 50},
     },
     result = "heavy-armor",

@@ -17,8 +17,8 @@ Recipe.select('air-pump-2').ingredients =
 
 Recipe.select('chemical-plant').ingredients =
 {
-	{type="item", name="steel-plate", amount=20},
-	{type="item", name="iron-gear-wheel", amount=30},
+	{type="item", name="steel-plate", amount=10},
+	{type="item", name="iron-gear-wheel", amount=10},
 	{type="item", name="electronic-circuit", amount=5},
 	{type="item", name="pipe", amount=10},
 }
@@ -28,9 +28,9 @@ if data.raw.item['steel-bearing'] and data.raw.item['steel-gear-wheel'] and data
 	{
 		{type="item", name="chemical-plant", amount=1},
 		{type="item", name="glass", amount=15},
-		{type="item", name="steel-bearing", amount=30},
-		{type="item", name="steel-gear-wheel", amount=15},
-		{type="item", name="advanced-circuit", amount=8},
+		{type="item", name="steel-bearing", amount=10},
+		{type="item", name="steel-gear-wheel", amount=10},
+		{type="item", name="advanced-circuit", amount=10},
 		{type="item", name="pipe", amount=10},
 	}
 end
@@ -46,33 +46,33 @@ Recipe.select('electrolyser-2').ingredients =
 {
 	{type="item", name="electrolyser", amount=1},
 	{type="item", name="glass", amount=15},
-	{type="item", name="steel-plate", amount=30},
+	{type="item", name="steel-plate", amount=20},
 	{type="item", name="advanced-circuit", amount=8},
 	{type="item", name="pipe", amount=10},
 }
 
 Recipe.select('water-pump').apply('energy_required', 7).ingredients =
 {
-	{type="item", name="iron-plate", amount=10},
-	{type="item", name="iron-gear-wheel", amount=15},
-	{type="item", name="electronic-circuit", amount=10},
-	{type="item", name="pipe", amount=20},
+	{type="item", name="iron-plate", amount=5},
+	{type="item", name="iron-gear-wheel", amount=5},
+	{type="item", name="electronic-circuit", amount=5},
+	{type="item", name="pipe", amount=10},
 }
 
 Recipe.select('water-pump-2').ingredients =
 {
 	{type="item", name="water-pump", amount=1},
-	{type="item", name="steel-plate", amount=10},
-	{type="item", name="steel-gear-wheel", amount=10},
+	{type="item", name="steel-plate", amount=5},
+	{type="item", name="steel-gear-wheel", amount=5},
 	{type="item", name="advanced-circuit", amount=8},
-	{type="item", name="pipe", amount=15},
+	{type="item", name="pipe", amount=10},
 }
 
 Recipe.select('void-pump').ingredients =
 {
-	{type="item", name="iron-plate", amount=10},
-	{type="item", name="iron-gear-wheel", amount=15},
-	{type="item", name="electronic-circuit", amount=10},
+	{type="item", name="iron-plate", amount=5},
+	{type="item", name="iron-gear-wheel", amount=5},
+	{type="item", name="electronic-circuit", amount=5},
 	{type="item", name="pipe", amount=10},
 }
 

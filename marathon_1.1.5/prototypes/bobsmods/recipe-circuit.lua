@@ -4,8 +4,8 @@ if data.raw.item["basic-electronic-components"] and data.raw.item["electronic-co
 	{
 		ingredients = {
 			{type="item", name="circuit-board", amount=1},
-			{type="item", name="basic-electronic-components", amount=6},
-			{type="item", name="electronic-components", amount=6},
+			{type="item", name="basic-electronic-components", amount=5},
+			{type="item", name="electronic-components", amount=5},
 		}
 	})
 
@@ -14,9 +14,9 @@ if data.raw.item["basic-electronic-components"] and data.raw.item["electronic-co
 		energy_required = 25,
 		ingredients = {
 			{type="item", name="multi-layer-circuit-board", amount=1},
-			{type="item", name="basic-electronic-components", amount=3},
+			{type="item", name="basic-electronic-components", amount=2},
 			{type="item", name="electronic-components", amount=4},
-			{type="item", name="intergrated-electronics", amount=6},
+			{type="item", name="intergrated-electronics", amount=5},
 			{type="item", name="processing-electronics", amount=4},
 		}
 	})
@@ -131,8 +131,8 @@ if data.raw.item["intergrated-electronic"] and
 		energy_required = 15,
 		ingredients = {
 			{"superior-circuit-board", 1},
-			{"basic-electronic-components", 6},
-			{"electronic-components", 6},
+			{"basic-electronic-components", 5},
+			{"electronic-components", 5},
 			{"intergrated-electronics", 4},
 		}
 	})
@@ -142,7 +142,7 @@ if data.raw.item["solder-alloy"] then
 	marathon.update_recipe("solder",
 	{
 		energy_required = 4,
-		result_count = 4
+		result_count = 6
 	})
 end
 

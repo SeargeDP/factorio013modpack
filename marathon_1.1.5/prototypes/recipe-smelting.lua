@@ -5,7 +5,7 @@ data:extend({
     category = "smelting",
 
     energy_required = 6.33,
-    ingredients = {{ "copper-ore", 1}},
+    ingredients = {{ "copper-ore", 4}},
     result = "copper-plate",
     result_count = 5,
   },
@@ -15,7 +15,7 @@ data:extend({
     category = "smelting",
 
     energy_required = 7,
-    ingredients = {{"iron-ore", 2}},
+    ingredients = {{"iron-ore", 4}},
     result = "iron-plate",
     result_count = 5,
   },

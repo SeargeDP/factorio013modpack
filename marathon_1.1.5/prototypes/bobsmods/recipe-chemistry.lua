@@ -1,6 +1,6 @@
 Recipe.select("alumina").apply('energy_required', 6).apply('result_count', 6).ingredients =
 {
-	{type="item", name="sodium-hydroxide", amount=10},
+	{type="item", name="sodium-hydroxide", amount=5},
 	{type="item", name="bauxite-ore", amount=2},
 }
 

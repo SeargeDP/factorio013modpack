@@ -3,7 +3,7 @@ if data.raw.item["brass-alloy"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="brass-alloy", amount=5}
+			{type="item", name="brass-alloy", amount=4}
 		}
 	})
 end
@@ -13,9 +13,9 @@ if data.raw.item["silicon-nitride"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="silicon-nitride", amount=3},
-			{type="item", name="ceramic-bearing-ball", amount=42},
-		  	{type="fluid", name="lubricant", amount=3}
+			{type="item", name="silicon-nitride", amount=2},
+			{type="item", name="ceramic-bearing-ball", amount=32},
+		  	{type="fluid", name="lubricant", amount=2}
 		}
 	})
 
@@ -36,7 +36,7 @@ marathon.update_recipe("cobalt-oxide-from-copper",
 	},
 	results=
 	{
-		{type = "item", name = "copper-plate", amount = 50},
+		{type = "item", name = "copper-plate", amount = 25},
 		{type = "item", name = "cobalt-oxide", amount = 2},
 	},
 })
@@ -58,8 +58,8 @@ if data.raw.item["nitinol-alloy"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="nitinol-alloy", amount=3},
-			{type="item", name="nitinol-bearing-ball", amount=42},
+			{type="item", name="nitinol-alloy", amount=2},
+			{type="item", name="nitinol-bearing-ball", amount=32},
 		  	{type="fluid", name="lubricant", amount=2}
 		}
 	})
@@ -73,7 +73,7 @@ if data.raw.item["nitinol-alloy"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="nitinol-alloy", amount=5},
+			{type="item", name="nitinol-alloy", amount=4},
 		}
 	})
 end
@@ -87,8 +87,8 @@ marathon.update_recipe("steel-bearing",
 {
 	energy_required = 1.5,
 	ingredients = {
-		{type="item", name="steel-plate", amount=3},
-		{type="item", name="steel-bearing-ball", amount=42},
+		{type="item", name="steel-plate", amount=2},
+		{type="item", name="steel-bearing-ball", amount=32},
 	}
 })
 
@@ -101,7 +101,7 @@ marathon.update_recipe("steel-gear-wheel",
 {
 	energy_required = 1.5,
 	ingredients = {
-		{type="item", name="steel-plate", amount=5},
+		{type="item", name="steel-plate", amount=4},
 	}
 })
 
@@ -110,8 +110,8 @@ if data.raw.item["titanium-plate"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="titanium-plate", amount=3},
-			{type="item", name="titanium-bearing-ball", amount=42},
+			{type="item", name="titanium-plate", amount=2},
+			{type="item", name="titanium-bearing-ball", amount=32},
 		  	{type="fluid", name="lubricant", amount=2}
 		}
 	})
@@ -125,7 +125,7 @@ if data.raw.item["titanium-plate"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="titanium-plate", amount=5},
+			{type="item", name="titanium-plate", amount=4},
 		}
 	})
 end
@@ -135,7 +135,7 @@ if data.raw.item["tungsten-plate"] then
 	{
 		energy_required = 1.5,
 		ingredients = {
-			{type="item", name="tungsten-plate", amount=5},
+			{type="item", name="tungsten-plate", amount=4},
 		}
 	})
 end

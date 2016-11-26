@@ -4,7 +4,7 @@ data:extend({
     name = "iron-gear-wheel",
 
     energy_required = 1.5,
-    ingredients = {{"iron-plate", 5}},
+    ingredients = {{"iron-plate", 4}},
     result = "iron-gear-wheel",
   },
   {
@@ -13,20 +13,6 @@ data:extend({
 
     ingredients = {{"iron-plate", 5}},
     result = "iron-stick",
-    result_count = 2,
-  },
-  {
-    type = "recipe",
-    -- category = "crafting",
-    name = "low-density-structure",
-    enabled = false,
-
-    energy_required = 30,
-    ingredients = {
-      {"steel-plate", 10},
-      {"copper-plate", 25},
-      {"plastic-bar", 10},
-    },
-    result= "low-density-structure",
+    result_count = 4,
   },
 })

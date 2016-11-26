@@ -17,9 +17,9 @@ data:extend({
 
     energy_required = 10,
     ingredients = {
-      {"electronic-circuit", 20},
-      {"iron-gear-wheel", 25},
-      {"iron-plate", 100},
+      {"electronic-circuit", 10},
+      {"iron-gear-wheel", 10},
+      {"iron-plate", 50},
     },
     result = "electric-mining-drill",
   },
@@ -30,7 +30,7 @@ data:extend({
 
     energy_required = 10,
     ingredients = {
-      {"steel-plate", 25},
+      {"steel-plate", 20},
       {"stone-brick", 10},
     },
     result = "steel-furnace",
@@ -41,9 +41,9 @@ data:extend({
     enabled = false,
 
     ingredients = {
-      {"electronic-circuit", 25},
-      {"iron-gear-wheel", 25},
-      {"iron-plate", 25},
+      {"electronic-circuit", 10},
+      {"iron-gear-wheel", 10},
+      {"iron-plate", 20},
     },
     result = "assembling-machine-1",
   },
@@ -53,9 +53,9 @@ data:extend({
     enabled = false,
 
     ingredients = {
-      {"iron-plate", 100},
-      {"electronic-circuit", 25},
-      {"iron-gear-wheel", 25},
+      {"iron-plate", 20},
+      {"electronic-circuit", 10},
+      {"iron-gear-wheel", 10},
       {"assembling-machine-1", 1},
     },
     result = "assembling-machine-2",
@@ -65,8 +65,8 @@ data:extend({
     name = "boiler",
 
     ingredients = {
-      {"stone-furnace", 5},
-      {"pipe", 15},
+      {"stone-furnace", 4},
+      {"pipe", 5},
     },
     result = "boiler",
   },
@@ -76,9 +76,9 @@ data:extend({
 
     energy_required = 60,
     ingredients = {
-      {"iron-gear-wheel", 50},
-      {"pipe", 50},
-      {"iron-plate", 100},
+      {"iron-gear-wheel", 20},
+      {"pipe", 25},
+      {"iron-plate", 50},
     },
     result = "steam-engine",
   },
@@ -91,7 +91,7 @@ data:extend({
     ingredients = {
       {"steel-plate", 5},
       {"electronic-circuit", 15},
-      {"copper-plate", 30},
+      {"copper-plate", 25},
     },
     result = "solar-panel",
   },
@@ -102,7 +102,7 @@ data:extend({
 
     energy_required = 20,
     ingredients = {
-      {"iron-plate", 10},
+      {"iron-plate", 5},
       {"battery", 10},
     },
     result = "accumulator",

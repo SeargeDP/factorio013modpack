@@ -3,7 +3,7 @@ data:extend({
     type = "recipe",
     name = "iron-chest",
 
-    ingredients = {{"iron-plate", 20}},
+    ingredients = {{"iron-plate", 15}},
     result = "iron-chest",
   },
   {
@@ -11,7 +11,7 @@ data:extend({
     name = "steel-chest",
     enabled = false,
 
-    ingredients = {{"steel-plate", 8}},
+    ingredients = {{"steel-plate", 10}},
     result = "steel-chest",
   },
 
@@ -31,9 +31,9 @@ data:extend({
     name = "inserter",
 
     ingredients = {
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 1},
-      {"iron-plate", 2},
+      {"electronic-circuit", 2},
+      {"iron-gear-wheel", 2},
+      {"iron-plate", 5},
     },
     result = "inserter",
   },
@@ -53,7 +53,7 @@ data:extend({
     enabled = false,
 
     ingredients = {
-      {"iron-gear-wheel", 1},
+      {"iron-gear-wheel", 2},
       {"iron-plate", 5},
       {"inserter", 1},
     },
@@ -87,7 +87,7 @@ data:extend({
     ingredients = {
       {"stone", 2},
       {"iron-stick", 2},
-      {"steel-plate", 1},
+      {"steel-plate", 2},
     },
     result = "rail",
     result_count = 2,
@@ -100,7 +100,7 @@ data:extend({
 
     ingredients = {
       {"steel-plate", 2},
-      {"copper-plate", 10},
+      {"copper-plate", 5},
     },
     result = "medium-electric-pole",
   },
@@ -111,7 +111,7 @@ data:extend({
 
     ingredients = {
       {"steel-plate", 5},
-      {"copper-plate", 25},
+      {"copper-plate", 15},
     },
     result = "big-electric-pole"
   },
@@ -123,7 +123,7 @@ data:extend({
     ingredients = {
       {"steel-plate", 10},
       {"advanced-circuit", 5},
-      {"copper-plate", 25},
+      {"copper-plate", 15},
     },
     result = "substation",
   },
@@ -136,9 +136,9 @@ data:extend({
     energy_required = 20,
     ingredients = {
       {"electric-engine-unit", 5},
-      {"battery", 2},
-      {"steel-plate", 1},
-      {"electronic-circuit", 3},
+      {"battery", 4},
+      {"steel-plate", 2},
+      {"electronic-circuit", 5},
     },
     result = "flying-robot-frame",
   },
