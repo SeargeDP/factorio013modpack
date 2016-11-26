@@ -1,0 +1,201 @@
+data:extend(
+{
+  {
+    type = "recipe-category",
+    name = "ore-processing",
+  },
+  {
+    type = "recipe-category",
+    name = "pellet-pressing",
+  },
+  {
+    type = "recipe-category",
+    name = "blast-smelting",
+  },
+  {
+    type = "recipe-category",
+    name = "induction-smelting",
+  },
+  {
+    type = "recipe-category",
+    name = "casting",
+  },
+  {
+    type = "recipe-category",
+    name = "strand-casting",
+  },
+  {
+    type = "recipe-category",
+    name = "sintering",
+  },
+  {
+    type = "item-group",
+    name = "angels-smelting",
+    order = "p",
+    inventory_order = "p",
+    icon = "__angelssmelting__/graphics/technology/blast-furnace-group.png",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-aluminium",
+    group = "angels-smelting",
+    order = "a",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-chrome",
+    group = "angels-smelting",
+    order = "b",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-coal",
+    group = "angels-smelting",
+    order = "c",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-cobalt",
+    group = "angels-smelting",
+    order = "d",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-copper",
+    group = "angels-smelting",
+    order = "e",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-gold",
+    group = "angels-smelting",
+    order = "f",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-iron",
+    group = "angels-smelting",
+    order = "g",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-lead",
+    group = "angels-smelting",
+    order = "h",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-manganese",
+    group = "angels-smelting",
+    order = "i",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-nickel",
+    group = "angels-smelting",
+    order = "j",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-platinum",
+    group = "angels-smelting",
+    order = "k",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-silicon",
+    group = "angels-smelting",
+    order = "l",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-silver",
+    group = "angels-smelting",
+    order = "m",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-tin",
+    group = "angels-smelting",
+    order = "n",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-titanium",
+    group = "angels-smelting",
+    order = "o",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-tungsten",
+    group = "angels-smelting",
+    order = "p",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-zinc",
+    group = "angels-smelting",
+    order = "q",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-steel",
+    group = "angels-smelting",
+    order = "r",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-alloys",
+    group = "angels-smelting",
+    order = "s",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-processing-machine",
+    group = "angels-smelting",
+    order = "za",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-pellet-press",
+    group = "angels-smelting",
+    order = "zb",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-blast-furnace",
+    group = "angels-smelting",
+    order = "zc",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-induction-furnace",
+    group = "angels-smelting",
+    order = "zd",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-casting-machine",
+    group = "angels-smelting",
+    order = "ze",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-strand-casting-machine",
+    group = "angels-smelting",
+    order = "zf",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-sintering-oven",
+    group = "angels-smelting",
+    order = "zg",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-smelting",
+    group = "angels-smelting",
+    order = "zz",
+  },
+  }
+  )
